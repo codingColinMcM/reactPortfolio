@@ -13,7 +13,7 @@ export default function Home() {
         <img src={filmDexImg} style={thisSize}></img>
       </a>
       <p>
-      Coding Bootcamp student that has experience with a multitude of technologies. Class of 2022 Computer Science Minor hungry 
+      I am Coding Bootcamp student that has experience with a multitude of technologies. Class of 2022 Computer Science Minor hungry 
       to learn more about the field with years of academic experience in Computer Science. Trustworthy Eagle Scout with leadership 
       skills and planning skills.  Able to perform tasks that require strength, dedication, and careful consideration.
       </p>
