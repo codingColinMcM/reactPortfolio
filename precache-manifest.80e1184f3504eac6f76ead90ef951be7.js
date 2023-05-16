@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "a0497d074ff64a0ba1b4",
-    "url": "/reactPortfolio/static/js/main.a0497d07.chunk.js"
+    "revision": "77ab00f867cc54a151c9",
+    "url": "/reactPortfolio/static/js/main.77ab00f8.chunk.js"
   },
   {
-    "revision": "85966736835b6aed91e7",
-    "url": "/reactPortfolio/static/css/1.aa14c7b4.chunk.css"
+    "revision": "20e69efc1e3b686ecdff",
+    "url": "/reactPortfolio/static/css/1.3f6c1d8d.chunk.css"
   },
   {
-    "revision": "85966736835b6aed91e7",
-    "url": "/reactPortfolio/static/js/1.85966736.chunk.js"
+    "revision": "20e69efc1e3b686ecdff",
+    "url": "/reactPortfolio/static/js/1.20e69efc.chunk.js"
   },
   {
     "revision": "b0bfce8dd94b52aef958",
@@ -48,6 +48,10 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/Post-BootCamp.6cbfe804.docx"
   },
   {
+    "revision": "448c34a56d699c29117adc64c43affeb",
+    "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.448c34a5.woff2"
+  },
+  {
     "revision": "fa2772327f55d8198301fdb8bcfc8158",
     "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.fa277232.woff"
   },
@@ -56,19 +60,15 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.f4769f9b.eot"
   },
   {
-    "revision": "448c34a56d699c29117adc64c43affeb",
-    "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.448c34a5.woff2"
+    "revision": "89889688147bd7575d6327160d64e760",
+    "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.89889688.svg"
   },
   {
     "revision": "e18bbf611f2a2e43afc071aa2f4e1512",
     "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.e18bbf61.ttf"
   },
   {
-    "revision": "89889688147bd7575d6327160d64e760",
-    "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.89889688.svg"
-  },
-  {
-    "revision": "ed77c00090eb7394fe579f6e99931a9f",
+    "revision": "97a104075e8d65d2ea87a8de19d372e5",
     "url": "/reactPortfolio/index.html"
   }
 ];
