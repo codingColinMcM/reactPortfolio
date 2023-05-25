@@ -19,6 +19,7 @@ To address this requirement, I have developed a single-page application portfoli
 8. Constructing the "Contact" section, which features a user-friendly form with fields for name, email address, and a message. Employers are notified when a field is required or when an invalid email address is entered, ensuring accurate and complete information.
 9. Implementing the "Resume" section, including a link to download the developer's resume and a comprehensive list of the developer's proficiencies, enabling employers to assess the candidate's skill set.
 10. Designing a footer that presents text or icon links to the developer's GitHub and LinkedIn profiles, as well as their profile on a third platform such as Stack Overflow or Twitter. This facilitates further exploration of the developer's online presence.
+
 By following these steps, I have created a polished and comprehensive single-page application portfolio for web developers. Employers can confidently evaluate potential candidates based on their React portfolio, assess their capabilities, and make informed decisions regarding employment opportunities.
 ## Screenshot
 
