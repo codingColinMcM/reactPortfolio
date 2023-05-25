@@ -62,9 +62,11 @@ Install gh-pages:
 
 Edit package.json:
 
-```"homepage": "http://<username>.github.io/photo-port",
+```
+"homepage": "http://<username>.github.io/photo-port",
 "predeploy": "npm run build",
-"deploy": "gh-pages -d build",```
+"deploy": "gh-pages -d build",
+```
 
 Then run:
 
