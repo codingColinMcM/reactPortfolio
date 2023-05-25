@@ -78,4 +78,4 @@ Then run:
 
 ## Deployed URL
 
-https://codingcolinmcm.github.io/reactPortfolio/ 
+<a href="https://codingcolinmcm.github.io/reactPortfolio/">Portfolio</a>
