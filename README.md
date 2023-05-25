@@ -1,11 +1,11 @@
 # Software-Development-Portfolio-React
 
 ## Description 
-Problem:
+### Problem:
 
 As an employer seeking candidates experienced in building web applications, I need a way to assess potential employees by viewing their deployed React portfolio of work samples. The portfolio should adhere to specific criteria, enabling me to determine if the candidate is suitable for an open position.
 
-Solution:
+### Solution:
 
 To address this requirement, I have developed a single-page application portfolio for web developers. The portfolio satisfies the given acceptance criteria, providing a seamless and intuitive experience for employers evaluating candidates. The solution involves the following steps:
 
@@ -33,7 +33,43 @@ By following these steps, I have created a polished and comprehensive single-pag
 
 ## Overview 
 
+The file structure of the React portfolio application is organized as follows:
 
+* The main directory contains the public folder with index.html, manifest.json, robot.txt, logo.png files, and a logo.ico file.
+* The main directory also includes the src folder with an assets folder, a components folder, App.css, App.js, App.test.js, index.css, index.js, logo.svg, reportWebVitals.js, and setupTests.js files.
+* The assets folder within src contains a css folder with style.css, a docs folder with the resume, and an images folder with a headshot for the About Me page and project screenshots.
+* The components folder within src includes a pages folder with React components for About, Portfolio, Resume, and Contact pages.
+The components folder within src also contains a LinkedSites.js file for handling hyperlinks and icons of GitHub, LinkedIn, StackOverflow, and Twitter.
+* The components folder within src also includes a NavTabs.js file for managing navigation tabs.
+* The components folder within src further contains a PortfolioContainer.js file for handling page changes.
+* The main directory additionally includes .gitignore, LICENSE, README.md, package-lock.json, and package.json files.
+
+Overall, this file structure organizes the React portfolio application's components, assets, pages, and necessary files in a logical manner. It provides a clear and coherent structure for development, making it easier to locate and manage different aspects of the application.
+
+## Installation
+To run this project, install it locally using npm:
+
+```npm install```
+
+## Usage
+After installing npm packages, the application will be invoked by using the following command:
+
+npm start
+Deployment
+Install gh-pages:
+
+```npm install -D gh-pages```
+
+Edit package.json:
+
+```"homepage": "http://<username>.github.io/photo-port",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",```
+
+Then run:
+
+```npm run deploy```
+  
 ## Screenshot
 
 ![image](https://user-images.githubusercontent.com/112663656/221924444-b2a890f0-652e-4967-bf23-9874287776b9.png)
