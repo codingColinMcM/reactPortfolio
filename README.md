@@ -1,5 +1,7 @@
 # Software-Development-Portfolio-React
 
+I want this to not make a pull request
+
 ## Description 
 
 A portfolio using React.js as the front end to create a responsive UI. Here, you will be given a brief summary of my Software development career, be shown my projects 
