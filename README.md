@@ -78,7 +78,7 @@ Then run:
 
 ## Deployed URL
 
-<a href="https://codingcolinmcm.github.io/Software-Development-Portfolio-React/">Portfolio</a>
+<a href="https://codingcolinmcm.github.io/reactPortfolio/">Portfolio</a>
 
 ## License
 
