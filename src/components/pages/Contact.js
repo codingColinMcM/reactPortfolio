@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { Link } from "react-router-dom";
 
 const serviceID = "service_zylwtkp"
 const templateID = "template_1dqmty6";
@@ -71,10 +72,14 @@ const Contact = () => {
   return (
       <div id="contact-form" className='Contact'>
         <h1>Reach out to me</h1>
-        <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} style={inputText}/>
-        <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} style={inputText}/>
-        <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)} style={inputText}></textarea>
-        <button onClick={submit} style={inputSubmit}>Send Message</button>
+        <h4>mcmurtraycolin@gmail.com</h4>
+        <button onClick={() => window.location.href = 'mailto:mcmurtraycolin@gmail.com'} style={inputSubmit}>To eMail me from your default eMail application</button>
+        <h2>Or you can reach out to me from here!</h2>
+        <h4>Just fill out your:</h4>
+        <input type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} style={inputText}/>
+        <input type="email" placeholder="eMail address" value={email} onChange={e => setEmail(e.target.value)} style={inputText}/>
+        <textarea placeholder="Message" value={message} onChange={e => setMessage(e.target.value)} style={inputText}></textarea>
+        <button onClick={submit} style={inputSubmit}>Send message</button>
       </div>
   );
 };

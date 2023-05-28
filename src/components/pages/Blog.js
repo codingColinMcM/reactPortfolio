@@ -1,5 +1,5 @@
 import React from 'react';
-const downloadResume = require("./../../assets/docs/Post-BootCamp.docx");
+const downloadResume = require("./../../assets/docs/Tech_CV.docx");
 
 export default function Blog() {
   return (
