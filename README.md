@@ -1,7 +1,5 @@
 # Software-Development-Portfolio-React
 
-I will create my own happiness
-
 ## Description 
 ### Problem:
 
