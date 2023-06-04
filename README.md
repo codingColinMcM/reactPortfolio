@@ -1,6 +1,6 @@
 # Software-Development-Portfolio-React
 
-I will create
+I will create my own
 
 ## Description 
 ### Problem:
