@@ -1,5 +1,18 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  NavItem,
+  NavLink,
+  Nav,
+  TabContent,
+  TabPane,
+  Container,
+  Row,
+  Col,
+} from "reactstrap";
 const filmDexImg = require("./../../assets/images/Screenshot 2022-11-01 184004.png");
 const magPieGalleryImg = require("./../../assets/images/Screenshot 2023-02-27 010038.png")
 const companyDBImg = require("./../../assets/images/Screenshot 2023-02-16 220621.png");
@@ -7,11 +20,17 @@ const eCommerceDBImg = require("./../../assets/images/216521080-b8715e4d-ff57-4d
 const noteTakerImg = require("./../../assets/images/Screenshot 2023-02-20 134924.png");
 const weatherAppImg = require("./../../assets/images/198859584-5e880983-e237-40c7-a936-3ef0d05e6b39.png");
 
+
 const thisSize = {
-  width: "45%"
+  width: "100%"
+}
+const thisPosition = {
+  "text-align": "center"
 }
 
 export default function About() {
+  const [iconPills, setIconPills] = React.useState("1");
+  const [pills, setPills] = React.useState("1");
   return (
     <div>
       <h1>Portfolio</h1>
@@ -21,29 +40,117 @@ export default function About() {
                 </th></tr>
                 <tr>
 
-                  <td><h3>FilmDex <SocialIcon url="https://github.com/mdlahey1/Project1-Front-End-App-Group6" network='github' bgColor="#918c8a"/></h3>
-                    <h5>Group project: Exclusively frontend application that allows the user to search for movies.</h5>
-                    <h5>Problem: Users face the inconvenience of navigating multiple platforms to access comprehensive information on movies and TV shows, including reviews, streaming availability, and recommendations.</h5>
-                    <h5>Solution: Filmdex is a web application that offers a centralized platform, integrating multiple third-party APIs, to streamline the process of finding and accessing comprehensive information on movies and TV shows, eliminating the need to navigate between various platforms.</h5>
-                    <h5>Tools/Technologies Used: JavaScript, HTML, CSS, GitHub, and Third Party APIs.</h5>
-                    <h5>Core Concepts:</h5>
-                    <ul>
-                      <li>Web application development</li>
-                      <li>Third-party API integration</li>
-                      <li>Data aggregation and retrieval</li>
-                      <li>User interface design</li>
-                      <li>User experience optimization</li>
-                      <li>Information display and organization</li>
-                      <li>Search functionality</li>
-                      <li>Data filtering and sorting</li>
-                      <li>Recommendations algorithms</li>
-                      <li>Streamlining access to reviews and streaming availability.</li>
-                    </ul>
-                    <div class = "firsApp">
-                      <a href="https://mdlahey1.github.io/Project1-Front-End-App-Group6/">
-                        <img src={filmDexImg} style={thisSize}></img>
-                      </a>
-                    </div>
+                  <td>
+                  <Card>
+                  <h3 style={thisPosition}>FilmDex <SocialIcon url="https://github.com/mdlahey1/Project1-Front-End-App-Group6" network='github' bgColor="#918c8a"/></h3>
+                    <CardHeader>
+                      <Nav
+                        className="nav-tabs-neutral justify-content-center"
+                        data-background-color="blue"
+                        role="tablist"
+                        tabs
+                      >
+                        <NavItem>
+                          <NavLink
+                            className={pills === "1" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("1");
+                            }}
+                          >
+                            Description
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "2" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("2");
+                            }}
+                          >
+                            Problem and Solution
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "3" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("3");
+                            }}
+                          >
+                            Tools and Technologies
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "4" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("4");
+                            }}
+                          >
+                            Core Concepts
+                          </NavLink>
+                        </NavItem>
+                      </Nav>
+                    </CardHeader>
+                    <CardBody>
+                      <TabContent
+                        className="text-center"
+                        activeTab={"pills" + pills}
+                      >
+                        <TabPane tabId="pills1">
+                          <p>
+                          
+                        The "FilmDex" is a collaborative effort resulting in a web application that utilizes multiple third-party APIs to provide comprehensive Movie & TV Show information, including reviews and streaming access from over 150+ services.
+
+                        With this project, our team aimed to develop an application that seamlessly merges the time-consuming process of searching for your next Movie/TV Show into a unified and intuitive user experience. Instead of individually searching for reviews, streaming availability, and recommendations, the "FilmDex" simplifies and expedites this process, offering a convenient solution for users.
+                          </p>
+                        </TabPane>
+                        <TabPane tabId="pills2">
+                          <p>
+                          Problem: Users face the inconvenience of navigating multiple platforms to access comprehensive information on movies and TV shows, including reviews, streaming availability, and recommendations. <br></br><br></br>
+                          Solution: Filmdex is a web application that offers a centralized platform, integrating multiple third-party APIs, to streamline the process of finding and accessing comprehensive information on movies and TV shows, eliminating the need to navigate between various platforms.
+                          </p>
+                        </TabPane>
+                        <TabPane tabId="pills3">
+                          <p>
+                          JavaScript<br></br>
+                          HTML<br></br>
+                          CSS<br></br> 
+                          GitHub<br></br>
+                          Third Party APIs.
+                          </p>
+                        </TabPane>
+                        <TabPane tabId="pills4">
+                          <p>
+                          
+                            Web application development<br></br>
+                            Third-party API integration<br></br>
+                            Data aggregation and retrieval<br></br>
+                            User interface design<br></br>
+                            User experience optimization<br></br>
+                            Information display and organization<br></br>
+                            Search functionality<br></br>
+                            Data filtering and sorting<br></br>
+                            Recommendations algorithms<br></br>
+                            Streamlining access to reviews and streaming availability
+                          </p>
+                        </TabPane>
+                      </TabContent>
+                      <div class = "firsApp">
+                        <a href="https://mdlahey1.github.io/Project1-Front-End-App-Group6/">
+                          <img src={filmDexImg} style={thisSize}></img>
+                        </a>
+                      </div>
+                    </CardBody>
+                  </Card>
                   </td>
                   <td><h3>Magpie Gallery <SocialIcon url="https://github.com/marysgreenwood/Spaghetti-on-the-Wall-Project" network='github' bgColor="#918c8a"/></h3>
                     <h5>Group Project: An online art gallery where artists can sign up and upload their art and search for art</h5>
