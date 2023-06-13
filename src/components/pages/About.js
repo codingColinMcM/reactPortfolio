@@ -39,172 +39,360 @@ export default function About() {
                 <p>Click the associated GitHub icons to be taken to each project's respective GitHub repository</p>
                 </th></tr>
                 <tr>
-
                   <td>
-                  <Card>
-                  <h3 style={thisPosition}>FilmDex <SocialIcon url="https://github.com/mdlahey1/Project1-Front-End-App-Group6" network='github' bgColor="#918c8a"/></h3>
-                    <CardHeader>
-                      <Nav
-                        className="nav-tabs-neutral justify-content-center"
-                        data-background-color="blue"
-                        role="tablist"
-                        tabs
-                      >
-                        <NavItem>
-                          <NavLink
-                            className={pills === "1" ? "active" : ""}
-                            href="#pablo"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              setPills("1");
-                            }}
-                          >
-                            Description
-                          </NavLink>
-                        </NavItem>
-                        <NavItem>
-                          <NavLink
-                            className={pills === "2" ? "active" : ""}
-                            href="#pablo"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              setPills("2");
-                            }}
-                          >
-                            Problem and Solution
-                          </NavLink>
-                        </NavItem>
-                        <NavItem>
-                          <NavLink
-                            className={pills === "3" ? "active" : ""}
-                            href="#pablo"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              setPills("3");
-                            }}
-                          >
-                            Tools and Technologies
-                          </NavLink>
-                        </NavItem>
-                        <NavItem>
-                          <NavLink
-                            className={pills === "4" ? "active" : ""}
-                            href="#pablo"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              setPills("4");
-                            }}
-                          >
-                            Core Concepts
-                          </NavLink>
-                        </NavItem>
-                      </Nav>
-                    </CardHeader>
-                    <CardBody>
-                      <TabContent
-                        className="text-center"
-                        activeTab={"pills" + pills}
-                      >
-                        <TabPane tabId="pills1">
-                          <p>
-                          
-                        The "FilmDex" is a collaborative effort resulting in a web application that utilizes multiple third-party APIs to provide comprehensive Movie & TV Show information, including reviews and streaming access from over 150+ services.
+                    <Card>
+                      <h3 style={thisPosition}>FilmDex <SocialIcon url="https://github.com/mdlahey1/Project1-Front-End-App-Group6" network='github' bgColor="#918c8a"/></h3>
+                      <CardHeader>
+                        <Nav
+                          className="nav-tabs-neutral justify-content-center"
+                          data-background-color="blue"
+                          role="tablist"
+                          tabs
+                        >
+                          <NavItem>
+                            <NavLink
+                              className={pills === "1" ? "active" : ""}
+                              href="#pablo"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                setPills("1");
+                              }}
+                            >
+                              Description
+                            </NavLink>
+                          </NavItem>
+                          <NavItem>
+                            <NavLink
+                              className={pills === "2" ? "active" : ""}
+                              href="#pablo"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                setPills("2");
+                              }}
+                            >
+                              Problem and Solution
+                            </NavLink>
+                          </NavItem>
+                          <NavItem>
+                            <NavLink
+                              className={pills === "3" ? "active" : ""}
+                              href="#pablo"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                setPills("3");
+                              }}
+                            >
+                              Tools and Technologies
+                            </NavLink>
+                          </NavItem>
+                          <NavItem>
+                            <NavLink
+                              className={pills === "4" ? "active" : ""}
+                              href="#pablo"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                setPills("4");
+                              }}
+                            >
+                              Core Concepts
+                            </NavLink>
+                          </NavItem>
+                        </Nav>
+                      </CardHeader>
+                      <CardBody>
+                        <TabContent
+                          className="text-center"
+                          activeTab={"pills" + pills}
+                        >
+                          <TabPane tabId="pills1">
+                            <p>
+                            
+                          The "FilmDex" is a collaborative effort resulting in a web application that utilizes multiple third-party APIs to provide comprehensive Movie & TV Show information, including reviews and streaming access from over 150+ services.
 
-                        With this project, our team aimed to develop an application that seamlessly merges the time-consuming process of searching for your next Movie/TV Show into a unified and intuitive user experience. Instead of individually searching for reviews, streaming availability, and recommendations, the "FilmDex" simplifies and expedites this process, offering a convenient solution for users.
-                          </p>
-                        </TabPane>
-                        <TabPane tabId="pills2">
-                          <p>
-                          Problem: Users face the inconvenience of navigating multiple platforms to access comprehensive information on movies and TV shows, including reviews, streaming availability, and recommendations. <br></br><br></br>
-                          Solution: Filmdex is a web application that offers a centralized platform, integrating multiple third-party APIs, to streamline the process of finding and accessing comprehensive information on movies and TV shows, eliminating the need to navigate between various platforms.
-                          </p>
-                        </TabPane>
-                        <TabPane tabId="pills3">
-                          <p>
-                          JavaScript<br></br>
-                          HTML<br></br>
-                          CSS<br></br> 
-                          GitHub<br></br>
-                          Third Party APIs.
-                          </p>
-                        </TabPane>
-                        <TabPane tabId="pills4">
-                          <p>
-                          
-                            Web application development<br></br>
-                            Third-party API integration<br></br>
-                            Data aggregation and retrieval<br></br>
+                          With this project, our team aimed to develop an application that seamlessly merges the time-consuming process of searching for your next Movie/TV Show into a unified and intuitive user experience. Instead of individually searching for reviews, streaming availability, and recommendations, the "FilmDex" simplifies and expedites this process, offering a convenient solution for users.
+                            </p>
+                          </TabPane>
+                          <TabPane tabId="pills2">
+                            <p>
+                            Problem: Users face the inconvenience of navigating multiple platforms to access comprehensive information on movies and TV shows, including reviews, streaming availability, and recommendations. <br></br><br></br>
+                            Solution: Filmdex is a web application that offers a centralized platform, integrating multiple third-party APIs, to streamline the process of finding and accessing comprehensive information on movies and TV shows, eliminating the need to navigate between various platforms.
+                            </p>
+                          </TabPane>
+                          <TabPane tabId="pills3">
+                            <p>
+                            JavaScript<br></br>
+                            HTML<br></br>
+                            CSS<br></br> 
+                            GitHub<br></br>
+                            Third Party APIs.
+                            </p>
+                          </TabPane>
+                          <TabPane tabId="pills4">
+                            <p>
+                            
+                              Web application development<br></br>
+                              Third-party API integration<br></br>
+                              Data aggregation and retrieval<br></br>
+                              User interface design<br></br>
+                              User experience optimization<br></br>
+                              Information display and organization<br></br>
+                              Search functionality<br></br>
+                              Data filtering and sorting<br></br>
+                              Recommendations algorithms<br></br>
+                              Streamlining access to reviews and streaming availability
+                            </p>
+                          </TabPane>
+                        </TabContent>
+                        <div class = "firsApp">
+                          <a href="https://mdlahey1.github.io/Project1-Front-End-App-Group6/">
+                            <img src={filmDexImg} style={thisSize}></img>
+                          </a>
+                        </div>
+                      </CardBody>
+                    </Card>
+                  </td>
+                  <td>
+                    <Card>
+                      <h3 style={thisPosition}>Magpie Gallery <SocialIcon url="https://github.com/marysgreenwood/Spaghetti-on-the-Wall-Project" network='github' bgColor="#918c8a"/></h3>
+                      <CardHeader>
+                        <Nav
+                          className="nav-tabs-neutral justify-content-center"
+                          data-background-color="blue"
+                          role="tablist"
+                          tabs
+                        >
+                          <NavItem>
+                            <NavLink
+                              className={pills === "1" ? "active" : ""}
+                              href="#pablo"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                setPills("1");
+                              }}
+                            >
+                              Description
+                            </NavLink>
+                          </NavItem>
+                          <NavItem>
+                            <NavLink
+                              className={pills === "2" ? "active" : ""}
+                              href="#pablo"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                setPills("2");
+                              }}
+                            >
+                              Problem and Solution
+                            </NavLink>
+                          </NavItem>
+                          <NavItem>
+                            <NavLink
+                              className={pills === "3" ? "active" : ""}
+                              href="#pablo"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                setPills("3");
+                              }}
+                            >
+                              Tools and Technologies
+                            </NavLink>
+                          </NavItem>
+                          <NavItem>
+                            <NavLink
+                              className={pills === "4" ? "active" : ""}
+                              href="#pablo"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                setPills("4");
+                              }}
+                            >
+                              Core Concepts
+                            </NavLink>
+                          </NavItem>
+                        </Nav>
+                      </CardHeader>
+                      <CardBody>
+                        <TabContent
+                          className="text-center"
+                          activeTab={"pills" + pills}
+                        >
+                          <TabPane tabId="pills1">
+                            <p>
+                            "Magpie Gallery" is a group project that empowers artists to showcase their creations while providing art enthusiasts with a captivating space to explore contemporary artwork.
+                            With this application, our team craeted a platform where artists can easily upload their work, gaining a platform to share their talent and creativity with a wider audience. Art enthusiasts, on the other hand, have the opportunity to immerse themselves in the world of contemporary art, accessing a diverse range of captivating artwork.
+                            Through this platform, artists and art enthusiasts come together, fostering a vibrant community that celebrates artistic expression and encourages the discovery of new and exciting artwork. Does adding more to this description solve my problem?
+                            <br></br><br></br>
+                            </p>
+                          </TabPane>
+                          <TabPane tabId="pills2">
+                            <p>
+                            Problem: Artists lack a centralized platform to showcase their work and connect with fellow artists, hindering their ability to build a vibrant and inclusive community.<br></br><br></br>
+                            Solution: Magpie Gallery is a full-stack web application that provides artists with a platform to showcase their work, connect with others, and foster a vibrant community of creators.
+                            </p>
+                          </TabPane>
+                          <TabPane tabId="pills3">
+                            <p>
+                            JavaScript<br></br>
+                            HTML<br></br> 
+                            CSS<br></br>
+                            MySQL<br></br> 
+                            Sequelize<br></br>
+                            Express.js<br></br>
+                            Node.js<br></br>
+                            Handlebars<br></br>
+                            Heroku<br></br>
+                            GitHub<br></br>
+                            body-parser<br></br>
+                            cookie-parser<br></br>
+                            morgan<br></br>
+                            hbs<br></br>
+                            bcrypt<br></br>
+                            dcrypt<br></br>
+                            dotenv<br></br>
+                            express-session<br></br>
+                            express-handlebars
+                            </p>
+                          </TabPane>
+                          <TabPane tabId="pills4">
+                            <p>
+                            Full-stack web development<br></br>
+                            User authentication and authorization<br></br>
+                            Database management (MySQL)<br></br>
+                            Server-side scripting (Node.js)<br></br>
+                            Web framework (Express.js)<br></br>
+                            Templating engine (Handlebars)<br></br>
+                            Front-end interactivity (JavaScript)<br></br>
                             User interface design<br></br>
-                            User experience optimization<br></br>
-                            Information display and organization<br></br>
-                            Search functionality<br></br>
-                            Data filtering and sorting<br></br>
-                            Recommendations algorithms<br></br>
-                            Streamlining access to reviews and streaming availability
-                          </p>
-                        </TabPane>
-                      </TabContent>
-                      <div class = "firsApp">
-                        <a href="https://mdlahey1.github.io/Project1-Front-End-App-Group6/">
-                          <img src={filmDexImg} style={thisSize}></img>
-                        </a>
-                      </div>
-                    </CardBody>
-                  </Card>
+                            Data security and privacy measures<br></br>
+                            Community building and engagement features
+                            </p>
+                          </TabPane>
+                        </TabContent>
+                        <div class = "secondApp">
+                          <a href="https://murmuring-ocean-73396.herokuapp.com/dashboard">
+                            <img src={magPieGalleryImg} style={thisSize}></img>
+                          </a>
+                        </div>
+                        <br></br>
+                        <br></br>
+                      </CardBody>
+                    </Card>
                   </td>
-                  <td><h3>Magpie Gallery <SocialIcon url="https://github.com/marysgreenwood/Spaghetti-on-the-Wall-Project" network='github' bgColor="#918c8a"/></h3>
-                    <h5>Group Project: An online art gallery where artists can sign up and upload their art and search for art</h5>
-                    <h5>Problem: Artists lack a centralized platform to showcase their work and connect with fellow artists, hindering their ability to build a vibrant and inclusive community.</h5>
-                    <h5>Solution: Magpie Gallery is a full-stack web application that provides artists with a platform to showcase their work, connect with others, and foster a vibrant community of creators.</h5>
-                    <h5>Tools/Technologies Used: JavaScript, HTML, CSS, MySQL, Sequelize, Express.js, Node.js, Handlebars, Heroku, GitHub, body-parser, cookie-parser, morgan, hbs, bcrypt, dcrypt, dotenv, express-session, and express-handlebars.</h5>
-                    <h5>Core Concepts:</h5>
-                    <ul>
-                      <li>Full-stack web development</li>
-                      <li>User authentication and authorization</li>
-                      <li>Database management (MySQL)</li>
-                      <li>Server-side scripting (Node.js)</li>
-                      <li>Web framework (Express.js)</li>
-                      <li>Templating engine (Handlebars)</li>
-                      <li>Front-end interactivity (JavaScript)</li>
-                      <li>User interface design</li>
-                      <li>Data security and privacy measures</li>
-                      <li>Community building and engagement features</li>
-                    </ul>
-                    <div class = "secondApp">
-                      <a href="https://murmuring-ocean-73396.herokuapp.com/dashboard">
-                        <img src={magPieGalleryImg} style={thisSize}></img>
-                      </a>
-                    </div>
-                  </td>
-                  
-                    
                 </tr>
                 <tr>
-
-                  <td><h3>Company Database <SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/></h3>
-                    <h5>Solo Project: SQL database for a company</h5>
-                    <h5>Problem: Business owners require an application that enables them to conveniently view, manage, and update information about departments, roles, and employees in their company, eliminating the need for manual data organization.</h5>
-                    <h5>Solution: I developed a command-line application using Node.js and MySQL2 package, providing business owners with a user-friendly interface to interact with a MySQL database. The application allows users to view all departments, roles, and employees in formatted tables, add new departments, roles, and employees, and update an employee's role, streamlining the management process effectively.</h5>
-                    <h5>Tools/Technologies Used:MySQL, Express.js, Node.js, JavaScript, GitHub, Inquirer, console.table.</h5>
-                    <h5>Core Concepts:</h5>
-                    <ul>
-                      <li>Command-line application development</li>
-                      <li>Node.js programming</li>
-                      <li>Database management (MySQL)</li>
-                      <li>User input handling (Inquirer package)</li>
-                      <li>Data display and formatting (console.table package)</li>
-                      <li>CRUD operations (Create, Read, Update, Delete)</li>
-                      <li>Data retrieval and querying</li>
-                      <li>User interface design</li>
-                      <li>Data organization and relationships (departments, roles, employees)</li>
-                      <li>User management and role assignment.</li>
-                    </ul>
-                    <div class = "thirdApp">
-                      <a href="https://drive.google.com/file/d/1Ru1HgPWMflV5q_3wtXiLwdxUPVTR_oOe/view?usp=share_link">
-                        <img src={companyDBImg} style={thisSize}></img>
-                      </a>
-                    </div>
-                  </td>
+                  <td>
+                      <Card>
+                        <h3 style={thisPosition}>Company Database <SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/></h3>
+                        <CardHeader>
+                          <Nav
+                            className="nav-tabs-neutral justify-content-center"
+                            data-background-color="blue"
+                            role="tablist"
+                            tabs
+                          >
+                            <NavItem>
+                              <NavLink
+                                className={pills === "1" ? "active" : ""}
+                                href="#pablo"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  setPills("1");
+                                }}
+                              >
+                                Description
+                              </NavLink>
+                            </NavItem>
+                            <NavItem>
+                              <NavLink
+                                className={pills === "2" ? "active" : ""}
+                                href="#pablo"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  setPills("2");
+                                }}
+                              >
+                                Problem and Solution
+                              </NavLink>
+                            </NavItem>
+                            <NavItem>
+                              <NavLink
+                                className={pills === "3" ? "active" : ""}
+                                href="#pablo"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  setPills("3");
+                                }}
+                              >
+                                Tools and Technologies
+                              </NavLink>
+                            </NavItem>
+                            <NavItem>
+                              <NavLink
+                                className={pills === "4" ? "active" : ""}
+                                href="#pablo"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  setPills("4");
+                                }}
+                              >
+                                Core Concepts
+                              </NavLink>
+                            </NavItem>
+                          </Nav>
+                        </CardHeader>
+                        <CardBody>
+                          <TabContent
+                            className="text-center"
+                            activeTab={"pills" + pills}
+                          >
+                            <TabPane tabId="pills1">
+                              <p>
+                              Solo Project: SQL database for a company
+                              <br></br><br></br>
+                              </p>
+                            </TabPane>
+                            <TabPane tabId="pills2">
+                              <p>
+                              Problem: Business owners require an application that enables them to conveniently view, manage, and update information about departments, roles, and employees in their company, eliminating the need for manual data organization.<br></br><br></br>
+                              Solution: I developed a command-line application using Node.js and MySQL2 package, providing business owners with a user-friendly interface to interact with a MySQL database. The application allows users to view all departments, roles, and employees in formatted tables, add new departments, roles, and employees, and update an employee's role, streamlining the management process effectively.
+                              </p>
+                            </TabPane>
+                            <TabPane tabId="pills3">
+                              <p>
+                              MySQL<br></br>
+                              Express.js<br></br>
+                              Node.js<br></br>
+                              JavaScript<br></br>
+                              GitHub<br></br>
+                              Inquirer<br></br>
+                              console.table
+                              </p>
+                            </TabPane>
+                            <TabPane tabId="pills4">
+                              <p>
+                              Command-line application development<br></br>
+                              Node.js programming<br></br>
+                              Database management (MySQL)<br></br>
+                              User input handling (Inquirer package)<br></br>
+                              Data display and formatting (console.table package)<br></br>
+                              CRUD operations (Create, Read, Update, Delete)<br></br>
+                              Data retrieval and querying<br></br>
+                              User interface design<br></br>
+                              Data organization and relationships (departments, roles, employees)<br></br>
+                              User management and role assignment<br></br>
+                              </p>
+                            </TabPane>
+                          </TabContent>
+                          <div class = "thirdApp">
+                            <a href="https://drive.google.com/file/d/1Ru1HgPWMflV5q_3wtXiLwdxUPVTR_oOe/view?usp=share_link">
+                              <img src={companyDBImg} style={thisSize}></img>
+                            </a>
+                          </div>
+                        </CardBody>
+                      </Card>
+                    </td>
+                    
+          
                   <td><h3>E-Commerce <SocialIcon url="https://github.com/codingColinMcM/eCommerce" network='github' bgColor="#918c8a"/></h3>
                     <h5>Solo Project: Online store that uses seqelize to store department and product information</h5>
                     <h5>Problem: eCommerce sites require a robust and efficient backend solution to manage their data effectively, including setting up an Express.js API and connecting it to a MySQL database using Sequelize.</h5>
