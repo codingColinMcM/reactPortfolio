@@ -21,7 +21,7 @@ Throughout my coursework, I delved into various computer science subjects that h
 
 <br></br>CPSC 240: Object-oriented Analysis and Design focused on object-oriented analysis and design principles. Through this course, I developed a structured approach to software development with an emphasis on code modularity and reusability.
 
-<br></br>CPSC 284: Applied Discreet Mathematics provided me with a solid understanding of the mathematical foundations of computer science, including algorithms, logic, and graph theory. This knowledge has proven invaluable when tackling complex programming challenges.cd 
+<br></br>CPSC 284: Applied Discreet Mathematics provided me with a solid understanding of the mathematical foundations of computer science, including algorithms, logic, and graph theory. This knowledge has proven invaluable when tackling complex programming challenges.
 
 <br></br>Furthermore, CPSC 350: Applications of Databases introduced me to the practical applications of databases. It equipped me with the skills to design and implement efficient data storage solutions.
 
