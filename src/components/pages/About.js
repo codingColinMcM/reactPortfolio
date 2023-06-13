@@ -507,7 +507,7 @@ export default function About() {
                 <tr>
                 <td>
                       <Card>
-                        <h3 style={thisPosition}>Company Database <SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/></h3>
+                        <h3 style={thisPosition}>Note Taker<SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/></h3>
                         <CardHeader>
                           <Nav
                             className="nav-tabs-neutral justify-content-center"
@@ -572,73 +572,49 @@ export default function About() {
                           >
                             <TabPane tabId="pills1">
                               <p>
-                              Solo Project: SQL database for a company
+                              Solo Project: Express.js application that allows you to write, save, and delete notes
                               <br></br><br></br>
                               </p>
                             </TabPane>
                             <TabPane tabId="pills2">
                               <p>
-                              Problem: Business owners require an application that enables them to conveniently view, manage, and update information about departments, roles, and employees in their company, eliminating the need for manual data organization.<br></br><br></br>
-                              Solution: I developed a command-line application using Node.js and MySQL2 package, providing business owners with a user-friendly interface to interact with a MySQL database. The application allows users to view all departments, roles, and employees in formatted tables, add new departments, roles, and employees, and update an employee's role, streamlining the management process effectively.
-                              </p>
+                              Problem: Small business owners face difficulties in organizing and tracking important tasks and thoughts, leading to disorganization, lost information, missed opportunities, and unfinished tasks.<br></br><br></br>
+                              Solution: To address this challenge, I have developed a note-taking application that provides small business owners with a reliable and efficient solution. The application includes a well-designed landing page with a link to the notes page, a functional notes page built with vanilla JavaScript, HTML, and CSS, JavaScript's native state management for handling user input and storing notes, a save icon for saving notes to a JSON file, and an Express router for seamless navigation. This solution offers a dependable system for organizing, managing, and referencing tasks and thoughts effectively.                              </p>
                             </TabPane>
                             <TabPane tabId="pills3">
                               <p>
-                              MySQL<br></br>
+                              JavaScript<br></br>
+                              HTML<br></br>
+                              CSS<br></br>
                               Express.js<br></br>
                               Node.js<br></br>
-                              JavaScript<br></br>
+                              Heroku<br></br>
                               GitHub<br></br>
-                              Inquirer<br></br>
-                              console.table
+                              JSON
                               </p>
                             </TabPane>
                             <TabPane tabId="pills4">
                               <p>
-                              Command-line application development<br></br>
-                              Node.js programming<br></br>
-                              Database management (MySQL)<br></br>
-                              User input handling (Inquirer package)<br></br>
-                              Data display and formatting (console.table package)<br></br>
-                              CRUD operations (Create, Read, Update, Delete)<br></br>
-                              Data retrieval and querying<br></br>
-                              User interface design<br></br>
-                              Data organization and relationships (departments, roles, employees)<br></br>
-                              User management and role assignment<br></br>
+                              Web application development<br></br>
+                              HTML and CSS for page layout and styling<br></br>
+                              Vanilla JavaScript for functionality<br></br>
+                              State management in JavaScript<br></br>
+                              JSON file handling<br></br>
+                              Express router for navigation<br></br>
+                              User input handling<br></br>
+                              User interface design and usability<br></br>
+                              Data management and CRUD operations.
                               </p>
                             </TabPane>
                           </TabContent>
-                          <div class = "thirdApp">
-                            <a href="https://drive.google.com/file/d/1Ru1HgPWMflV5q_3wtXiLwdxUPVTR_oOe/view?usp=share_link">
-                              <img src={companyDBImg} style={thisSize}></img>
+                          <div class = "fifthApp">
+                            <a href="https://fierce-spire-62517.herokuapp.com/">
+                              <img src={noteTakerImg} style={thisSize}></img>
                             </a>
                           </div>
                         </CardBody>
                       </Card>
                     </td>
-                  <td><h3>Note Taker <SocialIcon url="https://github.com/codingColinMcM/note-taker" network='github' bgColor="#918c8a"/></h3>
-                    <h5>Solo Project: Express.js application that allows you to write, save, and delete notes</h5>
-                    <h5>Problem: Small business owners face difficulties in organizing and tracking important tasks and thoughts, leading to disorganization, lost information, missed opportunities, and unfinished tasks.</h5>
-                    <h5>Solution: To address this challenge, I have developed a note-taking application that provides small business owners with a reliable and efficient solution. The application includes a well-designed landing page with a link to the notes page, a functional notes page built with vanilla JavaScript, HTML, and CSS, JavaScript's native state management for handling user input and storing notes, a save icon for saving notes to a JSON file, and an Express router for seamless navigation. This solution offers a dependable system for organizing, managing, and referencing tasks and thoughts effectively.</h5>
-                    <h5>Tools/Technologies Used: JavaScript, HTML, CSS, Express.js, Node.js, Heroku, GitHub, JSON.</h5>
-                    <h5>Core Concepts:</h5>
-                    <ul>
-                      <li>Web application development</li>
-                      <li>HTML and CSS for page layout and styling</li>
-                      <li>Vanilla JavaScript for functionality</li>
-                      <li>State management in JavaScript</li>
-                      <li>JSON file handling</li>
-                      <li>Express router for navigation</li>
-                      <li>User input handling</li>
-                      <li>User interface design and usability</li>
-                      <li>Data management and CRUD operations.</li>
-                    </ul>
-                    <div class = "fifthApp">
-                      <a href="https://fierce-spire-62517.herokuapp.com/">
-                        <img src={noteTakerImg} style={thisSize}></img>
-                      </a>
-                    </div>
-                  </td>
                   <td>
                       <Card>
                         <h3 style={thisPosition}>Company Database <SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/></h3>
