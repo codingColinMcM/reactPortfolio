@@ -507,7 +507,7 @@ export default function About() {
                 <tr>
                 <td>
                       <Card>
-                        <h3 style={thisPosition}>Note Taker<SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/></h3>
+                        <h3 style={thisPosition}>Note Taker<SocialIcon url="https://github.com/codingColinMcM/Note-Taker-Express" network='github' bgColor="#918c8a"/></h3>
                         <CardHeader>
                           <Nav
                             className="nav-tabs-neutral justify-content-center"
@@ -617,7 +617,7 @@ export default function About() {
                     </td>
                   <td>
                       <Card>
-                        <h3 style={thisPosition}>Company Database <SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/></h3>
+                        <h3 style={thisPosition}>Weather Dashboard<SocialIcon url="https://github.com/codingColinMcM/weatherDashboard" network='github' bgColor="#918c8a"/></h3>
                         <CardHeader>
                           <Nav
                             className="nav-tabs-neutral justify-content-center"
@@ -682,73 +682,46 @@ export default function About() {
                           >
                             <TabPane tabId="pills1">
                               <p>
-                              Solo Project: SQL database for a company
+                              Solo Project: A website that accesses an open source weather API and allows the user to search for the weather forcast of a week for a city they search for
                               <br></br><br></br>
                               </p>
                             </TabPane>
                             <TabPane tabId="pills2">
                               <p>
-                              Problem: Business owners require an application that enables them to conveniently view, manage, and update information about departments, roles, and employees in their company, eliminating the need for manual data organization.<br></br><br></br>
-                              Solution: I developed a command-line application using Node.js and MySQL2 package, providing business owners with a user-friendly interface to interact with a MySQL database. The application allows users to view all departments, roles, and employees in formatted tables, add new departments, roles, and employees, and update an employee's role, streamlining the management process effectively.
+                              Problem: Travelers face difficulties in planning trips without access to weather information for multiple cities, leading to time-consuming searches and overwhelming tracking of weather conditions<br></br><br></br>
+                              Solution: To address this challenge, I have developed a weather dashboard application that offers a convenient and user-friendly solution for travelers. The application allows users to search for multiple cities and view current and future weather conditions. By leveraging the openweathermap.org API, the application retrieves and displays weather information in a clear and intuitive format, including city name, date, weather icon, temperature, humidity, and wind speed. Additionally, the application offers a search history feature for easy access to previously searched cities' weather data. This solution empowers travelers to plan their trips effectively based on comprehensive and up-to-date weather information.
                               </p>
                             </TabPane>
                             <TabPane tabId="pills3">
                               <p>
-                              MySQL<br></br>
-                              Express.js<br></br>
-                              Node.js<br></br>
                               JavaScript<br></br>
-                              GitHub<br></br>
-                              Inquirer<br></br>
-                              console.table
+                              HTML<br></br>
+                              CSS<br></br>
+                              Third-Party-API's<br></br>
+                              Bootstrap<br></br>
+                              GitHub
                               </p>
                             </TabPane>
                             <TabPane tabId="pills4">
                               <p>
-                              Command-line application development<br></br>
-                              Node.js programming<br></br>
-                              Database management (MySQL)<br></br>
-                              User input handling (Inquirer package)<br></br>
-                              Data display and formatting (console.table package)<br></br>
-                              CRUD operations (Create, Read, Update, Delete)<br></br>
-                              Data retrieval and querying<br></br>
-                              User interface design<br></br>
-                              Data organization and relationships (departments, roles, employees)<br></br>
-                              User management and role assignment<br></br>
+                              Web application development<br></br>
+                              API integration (openweathermap.org)<br></br>
+                              User input handling<br></br>
+                              Data retrieval and display<br></br>
+                              Search history management<br></br>
+                              User interface design and usability<br></br>
+                              Weather data interpretation.
                               </p>
                             </TabPane>
                           </TabContent>
-                          <div class = "thirdApp">
-                            <a href="https://drive.google.com/file/d/1Ru1HgPWMflV5q_3wtXiLwdxUPVTR_oOe/view?usp=share_link">
-                              <img src={companyDBImg} style={thisSize}></img>
+                          <div class = "sixthApp">
+                            <a href="https://codingcolinmcm.github.io/weatherDashboard/">
+                              <img src={weatherAppImg} style={thisSize}></img>
                             </a>
                           </div>
                         </CardBody>
                       </Card>
                     </td>
-                  <td><h3>Weather Dashboard <SocialIcon url="https://github.com/codingColinMcM/weatherDashboard" network='github' bgColor="#918c8a"/></h3>
-                    <h5>Solo Project: A website that accesses an open source weather API and allows the user to search for the weather</h5>
-                    <h5>forcast of a week for a city they search for.</h5>
-                    <h5>Problem: Travelers face difficulties in planning trips without access to weather information for multiple cities, leading to time-consuming searches and overwhelming tracking of weather conditions.</h5>
-                    <h5>Solution: To address this challenge, I have developed a weather dashboard application that offers a convenient and user-friendly solution for travelers. The application allows users to search for multiple cities and view current and future weather conditions. By leveraging the openweathermap.org API, the application retrieves and displays weather information in a clear and intuitive format, including city name, date, weather icon, temperature, humidity, and wind speed. Additionally, the application offers a search history feature for easy access to previously searched cities' weather data. This solution empowers travelers to plan their trips effectively based on comprehensive and up-to-date weather information.</h5>
-                    <h5>Tools/Technologies Used: JavaScript, HTML, CSS, Express.js, Node.js, Heroku, GitHub, JSON.</h5>
-                    <h5>Core Concepts:</h5>
-                    <ul>
-                      <li>Web application development</li>
-                      <li>API integration (openweathermap.org)</li>
-                      <li>User input handling</li>
-                      <li>Data retrieval and display</li>
-                      <li>Search history management</li>
-                      <li>User interface design and usability</li>
-                      <li>Weather data interpretation</li>
-                    </ul>
-                    <div class = "sixthApp">
-                      <a href="https://codingcolinmcm.github.io/weatherDashboard/">
-                        <img src={weatherAppImg} style={thisSize}></img>
-                      </a>
-                    </div>
-                  </td>
-                  
                 </tr>
             </table>
     </div>
