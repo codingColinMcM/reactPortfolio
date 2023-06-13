@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "5096fda23b6256afdff3",
-    "url": "/reactPortfolio/static/js/main.5096fda2.chunk.js"
+    "revision": "e9190047708fa773ca64",
+    "url": "/reactPortfolio/static/css/main.50254cf8.chunk.css"
   },
   {
-    "revision": "2d27e75dd0cbed71d52d",
-    "url": "/reactPortfolio/static/css/1.90839e63.chunk.css"
+    "revision": "e9190047708fa773ca64",
+    "url": "/reactPortfolio/static/js/main.e9190047.chunk.js"
   },
   {
-    "revision": "2d27e75dd0cbed71d52d",
-    "url": "/reactPortfolio/static/js/1.2d27e75d.chunk.js"
+    "revision": "bfd136169875c096977d",
+    "url": "/reactPortfolio/static/js/1.bfd13616.chunk.js"
   },
   {
     "revision": "b0bfce8dd94b52aef958",
@@ -48,27 +48,23 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/Tech_CV.7ff68224.docx"
   },
   {
-    "revision": "fa2772327f55d8198301fdb8bcfc8158",
-    "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "revision": "53a1bed7a3ec86d010fe100873828a89",
+    "url": "/reactPortfolio/static/media/nucleo-outline.53a1bed7.eot"
   },
   {
-    "revision": "f4769f9bdb7466be65088239c12046d1",
-    "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.f4769f9b.eot"
+    "revision": "8ebec31f5ce59f908db84d86aed5947f",
+    "url": "/reactPortfolio/static/media/nucleo-outline.8ebec31f.woff2"
   },
   {
-    "revision": "448c34a56d699c29117adc64c43affeb",
-    "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.448c34a5.woff2"
+    "revision": "24e2d6b43b1b0f84fdfaa06a4032f154",
+    "url": "/reactPortfolio/static/media/nucleo-outline.24e2d6b4.woff"
   },
   {
-    "revision": "89889688147bd7575d6327160d64e760",
-    "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.89889688.svg"
+    "revision": "22a0bffe789c286a9d78eb52670996a7",
+    "url": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf"
   },
   {
-    "revision": "e18bbf611f2a2e43afc071aa2f4e1512",
-    "url": "/reactPortfolio/static/media/glyphicons-halflings-regular.e18bbf61.ttf"
-  },
-  {
-    "revision": "4202e97d0cfc5cc8c7ae749873ecb17b",
+    "revision": "b08c28acb5a6c74575113a0758c060c5",
     "url": "/reactPortfolio/index.html"
   }
 ];
