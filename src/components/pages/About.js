@@ -355,7 +355,7 @@ export default function About() {
                           >
                             <TabPane tabId="pills9">
                               <p>
-                              Solo Project: SQL database for a company
+                              I developed a command-line application using Node.js and MySQL2 package that allows business owners to view and manage departments, roles, and employees in their company. The application provides options to view all departments, roles, and employees in a formatted table, as well as add departments, roles, and employees. It also allows for updating an employee's role in the database. The application utilizes Inquirer for user input and console.table for formatting and displaying MySQL rows. With this application, users can perform these actions in their terminal: view departments, roles, and employees; add departments, roles, and employees; and update an employee's role. It effectively organizes and plans businesses by providing the necessary functionality for managing company information.
                               <br></br><br></br>
                               </p>
                             </TabPane>
