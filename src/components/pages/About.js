@@ -27,10 +27,18 @@ const thisSize = {
 const thisPosition = {
   "text-align": "center"
 }
+const cardStyle = {
+  width: "600px", // Set the desired width percentage
+  height: "1075px",
+};
 
 export default function About() {
-  const [iconPills, setIconPills] = React.useState("1");
-  const [pills, setPills] = React.useState("1");
+  const [pills, setPills] = React.useState(null);
+  const [pillsMag, setPillsMag] = React.useState(null);
+  const [pillsDB, setPillsDB] = React.useState(null);
+  const [pillsEC, setPillsEC] = React.useState(null);
+  const [pillsNote, setPillsNote] = React.useState(null);
+  const [pillsW, setPillsW] = React.useState(null);
   return (
     <div>
       <h1>Portfolio</h1>
@@ -40,7 +48,7 @@ export default function About() {
                 </th></tr>
                 <tr>
                   <td>
-                    <Card>
+                    <Card style={cardStyle}>
                       <h3 style={thisPosition}>FilmDex <SocialIcon url="https://github.com/mdlahey1/Project1-Front-End-App-Group6" network='github' bgColor="#918c8a"/></h3>
                       <CardHeader>
                         <Nav
@@ -52,7 +60,7 @@ export default function About() {
                           <NavItem>
                             <NavLink
                               className={pills === "1" ? "active" : ""}
-                              href="#pablo"
+                              href="#antonio"
                               onClick={(e) => {
                                 e.preventDefault();
                                 setPills("1");
@@ -64,7 +72,7 @@ export default function About() {
                           <NavItem>
                             <NavLink
                               className={pills === "2" ? "active" : ""}
-                              href="#pablo"
+                              href="#antonio"
                               onClick={(e) => {
                                 e.preventDefault();
                                 setPills("2");
@@ -76,7 +84,7 @@ export default function About() {
                           <NavItem>
                             <NavLink
                               className={pills === "3" ? "active" : ""}
-                              href="#pablo"
+                              href="#antonio"
                               onClick={(e) => {
                                 e.preventDefault();
                                 setPills("3");
@@ -88,7 +96,7 @@ export default function About() {
                           <NavItem>
                             <NavLink
                               className={pills === "4" ? "active" : ""}
-                              href="#pablo"
+                              href="#antonio"
                               onClick={(e) => {
                                 e.preventDefault();
                                 setPills("4");
@@ -143,7 +151,7 @@ export default function About() {
                             </p>
                           </TabPane>
                         </TabContent>
-                        <div class = "firsApp">
+                        <div className = "firsApp">
                           <a href="https://mdlahey1.github.io/Project1-Front-End-App-Group6/">
                             <img src={filmDexImg} style={thisSize}></img>
                           </a>
@@ -152,7 +160,7 @@ export default function About() {
                     </Card>
                   </td>
                   <td>
-                    <Card>
+                    <Card style={cardStyle}>
                       <h3 style={thisPosition}>Magpie Gallery <SocialIcon url="https://github.com/marysgreenwood/Spaghetti-on-the-Wall-Project" network='github' bgColor="#918c8a"/></h3>
                       <CardHeader>
                         <Nav
@@ -163,11 +171,11 @@ export default function About() {
                         >
                           <NavItem>
                             <NavLink
-                              className={pills === "1" ? "active" : ""}
+                              className={pillsMag === "5" ? "active" : ""}
                               href="#pablo"
                               onClick={(e) => {
                                 e.preventDefault();
-                                setPills("1");
+                                setPillsMag("5");
                               }}
                             >
                               Description
@@ -175,11 +183,11 @@ export default function About() {
                           </NavItem>
                           <NavItem>
                             <NavLink
-                              className={pills === "2" ? "active" : ""}
+                              className={pillsMag === "6" ? "active" : ""}
                               href="#pablo"
                               onClick={(e) => {
                                 e.preventDefault();
-                                setPills("2");
+                                setPillsMag("6");
                               }}
                             >
                               Problem and Solution
@@ -187,11 +195,11 @@ export default function About() {
                           </NavItem>
                           <NavItem>
                             <NavLink
-                              className={pills === "3" ? "active" : ""}
+                              className={pillsMag === "7" ? "active" : ""}
                               href="#pablo"
                               onClick={(e) => {
                                 e.preventDefault();
-                                setPills("3");
+                                setPillsMag("7");
                               }}
                             >
                               Tools and Technologies
@@ -199,11 +207,11 @@ export default function About() {
                           </NavItem>
                           <NavItem>
                             <NavLink
-                              className={pills === "4" ? "active" : ""}
+                              className={pillsMag === "8" ? "active" : ""}
                               href="#pablo"
                               onClick={(e) => {
                                 e.preventDefault();
-                                setPills("4");
+                                setPillsMag("8");
                               }}
                             >
                               Core Concepts
@@ -214,9 +222,9 @@ export default function About() {
                       <CardBody>
                         <TabContent
                           className="text-center"
-                          activeTab={"pills" + pills}
+                          activeTab={"pills" + pillsMag}
                         >
-                          <TabPane tabId="pills1">
+                          <TabPane tabId="pills5">
                             <p>
                             "Magpie Gallery" is a group project that empowers artists to showcase their creations while providing art enthusiasts with a captivating space to explore contemporary artwork.
                             With this application, our team craeted a platform where artists can easily upload their work, gaining a platform to share their talent and creativity with a wider audience. Art enthusiasts, on the other hand, have the opportunity to immerse themselves in the world of contemporary art, accessing a diverse range of captivating artwork.
@@ -224,13 +232,13 @@ export default function About() {
                             <br></br><br></br>
                             </p>
                           </TabPane>
-                          <TabPane tabId="pills2">
+                          <TabPane tabId="pills6">
                             <p>
                             Problem: Artists lack a centralized platform to showcase their work and connect with fellow artists, hindering their ability to build a vibrant and inclusive community.<br></br><br></br>
                             Solution: Magpie Gallery is a full-stack web application that provides artists with a platform to showcase their work, connect with others, and foster a vibrant community of creators.
                             </p>
                           </TabPane>
-                          <TabPane tabId="pills3">
+                          <TabPane tabId="pills7">
                             <p>
                             JavaScript<br></br>
                             HTML<br></br> 
@@ -253,7 +261,7 @@ export default function About() {
                             express-handlebars
                             </p>
                           </TabPane>
-                          <TabPane tabId="pills4">
+                          <TabPane tabId="pills8">
                             <p>
                             Full-stack web development<br></br>
                             User authentication and authorization<br></br>
@@ -268,7 +276,7 @@ export default function About() {
                             </p>
                           </TabPane>
                         </TabContent>
-                        <div class = "secondApp">
+                        <div className = "secondApp">
                           <a href="https://murmuring-ocean-73396.herokuapp.com/dashboard">
                             <img src={magPieGalleryImg} style={thisSize}></img>
                           </a>
@@ -281,7 +289,7 @@ export default function About() {
                 </tr>
                 <tr>
                   <td>
-                      <Card>
+                      <Card style={cardStyle}>
                         <h3 style={thisPosition}>Company Database <SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/></h3>
                         <CardHeader>
                           <Nav
@@ -292,11 +300,11 @@ export default function About() {
                           >
                             <NavItem>
                               <NavLink
-                                className={pills === "1" ? "active" : ""}
+                                className={pillsDB === "9" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("1");
+                                  setPillsDB("9");
                                 }}
                               >
                                 Description
@@ -304,11 +312,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "2" ? "active" : ""}
+                                className={pillsDB === "10" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("2");
+                                  setPillsDB("10");
                                 }}
                               >
                                 Problem and Solution
@@ -316,11 +324,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "3" ? "active" : ""}
+                                className={pillsDB === "11" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("3");
+                                  setPillsDB("11");
                                 }}
                               >
                                 Tools and Technologies
@@ -328,11 +336,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "4" ? "active" : ""}
+                                className={pillsDB === "12" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("4");
+                                  setPillsDB("12");
                                 }}
                               >
                                 Core Concepts
@@ -343,21 +351,21 @@ export default function About() {
                         <CardBody>
                           <TabContent
                             className="text-center"
-                            activeTab={"pills" + pills}
+                            activeTab={"pills" + pillsDB}
                           >
-                            <TabPane tabId="pills1">
+                            <TabPane tabId="pills9">
                               <p>
                               Solo Project: SQL database for a company
                               <br></br><br></br>
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills2">
+                            <TabPane tabId="pills10">
                               <p>
                               Problem: Business owners require an application that enables them to conveniently view, manage, and update information about departments, roles, and employees in their company, eliminating the need for manual data organization.<br></br><br></br>
                               Solution: I developed a command-line application using Node.js and MySQL2 package, providing business owners with a user-friendly interface to interact with a MySQL database. The application allows users to view all departments, roles, and employees in formatted tables, add new departments, roles, and employees, and update an employee's role, streamlining the management process effectively.
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills3">
+                            <TabPane tabId="pills11">
                               <p>
                               MySQL<br></br>
                               Express.js<br></br>
@@ -368,7 +376,7 @@ export default function About() {
                               console.table
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills4">
+                            <TabPane tabId="pills12">
                               <p>
                               Command-line application development<br></br>
                               Node.js programming<br></br>
@@ -383,7 +391,7 @@ export default function About() {
                               </p>
                             </TabPane>
                           </TabContent>
-                          <div class = "thirdApp">
+                          <div className = "thirdApp">
                             <a href="https://drive.google.com/file/d/1Ru1HgPWMflV5q_3wtXiLwdxUPVTR_oOe/view?usp=share_link">
                               <img src={companyDBImg} style={thisSize}></img>
                             </a>
@@ -392,7 +400,7 @@ export default function About() {
                       </Card>
                     </td>
                     <td>
-                      <Card>
+                      <Card style={cardStyle}>
                         <h3 style={thisPosition}>E-Commerce <SocialIcon url="https://github.com/codingColinMcM/eCommerce" network='github' bgColor="#918c8a"/></h3>
                         <CardHeader>
                           <Nav
@@ -403,11 +411,11 @@ export default function About() {
                           >
                             <NavItem>
                               <NavLink
-                                className={pills === "1" ? "active" : ""}
+                                className={pillsEC === "13" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("1");
+                                  setPillsEC("13");
                                 }}
                               >
                                 Description
@@ -415,11 +423,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "2" ? "active" : ""}
+                                className={pillsEC === "14" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("2");
+                                  setPillsEC("14");
                                 }}
                               >
                                 Problem and Solution
@@ -427,11 +435,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "3" ? "active" : ""}
+                                className={pillsEC === "15" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("3");
+                                  setPillsEC("15");
                                 }}
                               >
                                 Tools and Technologies
@@ -439,11 +447,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "4" ? "active" : ""}
+                                className={pillsEC === "16" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("4");
+                                  setPillsEC("16");
                                 }}
                               >
                                 Core Concepts
@@ -454,21 +462,21 @@ export default function About() {
                         <CardBody>
                           <TabContent
                             className="text-center"
-                            activeTab={"pills" + pills}
+                            activeTab={"pills" + pillsEC}
                           >
-                            <TabPane tabId="pills1">
+                            <TabPane tabId="pills13">
                               <p>
                               Solo Project: Online store that uses seqelize to store department and product information
                               <br></br><br></br>
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills2">
+                            <TabPane tabId="pills14">
                               <p>
                               Problem: eCommerce sites require a robust and efficient backend solution to manage their data effectively, including setting up an Express.js API and connecting it to a MySQL database using Sequelize.<br></br><br></br>
                               Solution: I addressed this problem by developing a backend solution for an eCommerce site, utilizing a functional Express.js API integrated with Sequelize, an ORM tool, to establish a seamless connection with a MySQL database. The solution involved configuring environment variables, defining Sequelize models for data entities, performing database migrations, seeding the development database, and thoroughly testing the API routes for reliable functionality. This approach offers developers a streamlined process to set up an Express.js API with Sequelize and efficiently manage data in a MySQL database.
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills3">
+                            <TabPane tabId="pills15">
                               <p>
                               JavaScript<br></br>
                               MySQL<br></br>
@@ -480,7 +488,7 @@ export default function About() {
                               dotenv
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills4">
+                            <TabPane tabId="pills16">
                               <p>
                               Backend development<br></br>
                               Express.js framework<br></br>
@@ -495,7 +503,7 @@ export default function About() {
                               </p>
                             </TabPane>
                           </TabContent>
-                          <div class = "fourthApp">
+                          <div className = "fourthApp">
                             <a href="https://drive.google.com/file/d/1XdVn1MfiiEsmpfYC9HA0WPymaHQdRvsc/view">
                               <img src={eCommerceDBImg} style={thisSize}></img>
                             </a>
@@ -506,7 +514,7 @@ export default function About() {
                 </tr>
                 <tr>
                 <td>
-                      <Card>
+                      <Card style={cardStyle}>
                         <h3 style={thisPosition}>Note Taker<SocialIcon url="https://github.com/codingColinMcM/Note-Taker-Express" network='github' bgColor="#918c8a"/></h3>
                         <CardHeader>
                           <Nav
@@ -517,11 +525,11 @@ export default function About() {
                           >
                             <NavItem>
                               <NavLink
-                                className={pills === "1" ? "active" : ""}
+                                className={pillsNote === "17" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("1");
+                                  setPillsNote("17");
                                 }}
                               >
                                 Description
@@ -529,11 +537,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "2" ? "active" : ""}
+                                className={pillsNote === "18" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("2");
+                                  setPillsNote("18");
                                 }}
                               >
                                 Problem and Solution
@@ -541,11 +549,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "3" ? "active" : ""}
+                                className={pillsNote === "19" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("3");
+                                  setPillsNote("19");
                                 }}
                               >
                                 Tools and Technologies
@@ -553,11 +561,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "4" ? "active" : ""}
+                                className={pillsNote === "20" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("4");
+                                  setPillsNote("20");
                                 }}
                               >
                                 Core Concepts
@@ -568,20 +576,20 @@ export default function About() {
                         <CardBody>
                           <TabContent
                             className="text-center"
-                            activeTab={"pills" + pills}
+                            activeTab={"pills" + pillsNote}
                           >
-                            <TabPane tabId="pills1">
+                            <TabPane tabId="pills17">
                               <p>
                               Solo Project: Express.js application that allows you to write, save, and delete notes
                               <br></br><br></br>
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills2">
+                            <TabPane tabId="pills18">
                               <p>
                               Problem: Small business owners face difficulties in organizing and tracking important tasks and thoughts, leading to disorganization, lost information, missed opportunities, and unfinished tasks.<br></br><br></br>
                               Solution: To address this challenge, I have developed a note-taking application that provides small business owners with a reliable and efficient solution. The application includes a well-designed landing page with a link to the notes page, a functional notes page built with vanilla JavaScript, HTML, and CSS, JavaScript's native state management for handling user input and storing notes, a save icon for saving notes to a JSON file, and an Express router for seamless navigation. This solution offers a dependable system for organizing, managing, and referencing tasks and thoughts effectively.                              </p>
                             </TabPane>
-                            <TabPane tabId="pills3">
+                            <TabPane tabId="pills19">
                               <p>
                               JavaScript<br></br>
                               HTML<br></br>
@@ -593,7 +601,7 @@ export default function About() {
                               JSON
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills4">
+                            <TabPane tabId="pills20">
                               <p>
                               Web application development<br></br>
                               HTML and CSS for page layout and styling<br></br>
@@ -607,7 +615,7 @@ export default function About() {
                               </p>
                             </TabPane>
                           </TabContent>
-                          <div class = "fifthApp">
+                          <div className = "fifthApp">
                             <a href="https://fierce-spire-62517.herokuapp.com/">
                               <img src={noteTakerImg} style={thisSize}></img>
                             </a>
@@ -616,7 +624,7 @@ export default function About() {
                       </Card>
                     </td>
                   <td>
-                      <Card>
+                      <Card style={cardStyle}>
                         <h3 style={thisPosition}>Weather Dashboard<SocialIcon url="https://github.com/codingColinMcM/weatherDashboard" network='github' bgColor="#918c8a"/></h3>
                         <CardHeader>
                           <Nav
@@ -627,11 +635,11 @@ export default function About() {
                           >
                             <NavItem>
                               <NavLink
-                                className={pills === "1" ? "active" : ""}
+                                className={pillsW === "21" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("1");
+                                  setPillsW("21");
                                 }}
                               >
                                 Description
@@ -639,11 +647,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "2" ? "active" : ""}
+                                className={pillsW === "22" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("2");
+                                  setPillsW("22");
                                 }}
                               >
                                 Problem and Solution
@@ -651,11 +659,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "3" ? "active" : ""}
+                                className={pillsW === "23" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("3");
+                                  setPillsW("23");
                                 }}
                               >
                                 Tools and Technologies
@@ -663,11 +671,11 @@ export default function About() {
                             </NavItem>
                             <NavItem>
                               <NavLink
-                                className={pills === "4" ? "active" : ""}
+                                className={pillsW === "24" ? "active" : ""}
                                 href="#pablo"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  setPills("4");
+                                  setPillsW("24");
                                 }}
                               >
                                 Core Concepts
@@ -678,21 +686,21 @@ export default function About() {
                         <CardBody>
                           <TabContent
                             className="text-center"
-                            activeTab={"pills" + pills}
+                            activeTab={"pills" + pillsW}
                           >
-                            <TabPane tabId="pills1">
+                            <TabPane tabId="pills21">
                               <p>
                               Solo Project: A website that accesses an open source weather API and allows the user to search for the weather forcast of a week for a city they search for
                               <br></br><br></br>
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills2">
+                            <TabPane tabId="pills22">
                               <p>
                               Problem: Travelers face difficulties in planning trips without access to weather information for multiple cities, leading to time-consuming searches and overwhelming tracking of weather conditions<br></br><br></br>
                               Solution: To address this challenge, I have developed a weather dashboard application that offers a convenient and user-friendly solution for travelers. The application allows users to search for multiple cities and view current and future weather conditions. By leveraging the openweathermap.org API, the application retrieves and displays weather information in a clear and intuitive format, including city name, date, weather icon, temperature, humidity, and wind speed. Additionally, the application offers a search history feature for easy access to previously searched cities' weather data. This solution empowers travelers to plan their trips effectively based on comprehensive and up-to-date weather information.
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills3">
+                            <TabPane tabId="pills23">
                               <p>
                               JavaScript<br></br>
                               HTML<br></br>
@@ -702,7 +710,7 @@ export default function About() {
                               GitHub
                               </p>
                             </TabPane>
-                            <TabPane tabId="pills4">
+                            <TabPane tabId="pills24">
                               <p>
                               Web application development<br></br>
                               API integration (openweathermap.org)<br></br>
@@ -714,7 +722,7 @@ export default function About() {
                               </p>
                             </TabPane>
                           </TabContent>
-                          <div class = "sixthApp">
+                          <div className = "sixthApp">
                             <a href="https://codingcolinmcm.github.io/weatherDashboard/">
                               <img src={weatherAppImg} style={thisSize}></img>
                             </a>
