@@ -466,7 +466,7 @@ export default function About() {
                           >
                             <TabPane tabId="pills13">
                               <p>
-                              Solo Project: Online store that uses seqelize to store department and product information
+                              I have built the back end for an e-commerce site by configuring an Express.js API to use Sequelize for MySQL database interaction. This involved setting up environment variables and Sequelize configuration, defining models for data entities, running database migrations, seeding the development database, and testing API routes with Insomnia Core. This solution offers a reliable and efficient way for developers to manage their e-commerce site's back end, utilizing Sequelize and MySQL for seamless data management.
                               <br></br><br></br>
                               </p>
                             </TabPane>
@@ -580,7 +580,7 @@ export default function About() {
                           >
                             <TabPane tabId="pills17">
                               <p>
-                              Solo Project: Express.js application that allows you to write, save, and delete notes
+                              I have created a note-taking application to address the challenge of disorganized thoughts and tasks for small business owners. The application includes a landing page designed with HTML and CSS, which leads to a functional notes page built with vanilla JavaScript, HTML, and CSS. The notes page displays existing notes on the left-hand column and offers three empty fields for new notes on the right-hand column. Using JavaScript's state management, user input is handled and new notes are stored. A save icon in the navigation bar allows users to save their notes to a JSON file. Smooth navigation between the landing page and notes page is facilitated by an Express router. This note-taking application provides small business owners with a straightforward and powerful solution for organizing their thoughts and tasks, offering a reliable and efficient system for note-taking and management.
                               <br></br><br></br>
                               </p>
                             </TabPane>
@@ -690,7 +690,7 @@ export default function About() {
                           >
                             <TabPane tabId="pills21">
                               <p>
-                              Solo Project: A website that accesses an open source weather API and allows the user to search for the weather forcast of a week for a city they search for
+                              I have developed a weather dashboard application to address the challenge of planning trips without knowing the weather outlook for multiple cities. This user-friendly application allows travelers to search for multiple cities and view the current and future weather conditions for each city. It features an intuitive display of information retrieved from the openweathermap.org API, including city name, date, weather condition icons, temperature, humidity, and wind speed. The application also offers a 5-day forecast for future weather conditions. Users can conveniently add cities to their search history for easy access to weather information later. The weather dashboard application provides a comprehensive and invaluable solution for travelers to stay informed about weather conditions and plan their trips accordingly.
                               <br></br><br></br>
                               </p>
                             </TabPane>
