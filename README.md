@@ -1,6 +1,6 @@
 # Software-Development-Portfolio-React
 
-I updated a bunch of descriptions but soon I'll have to go to Moe's
+I updated a bunch of descriptions but soon I'll have to go to Moe's :'(
 
 ## Description 
 ### Problem:
