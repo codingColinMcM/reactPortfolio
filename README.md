@@ -1,6 +1,6 @@
 # Software-Development-Portfolio-React
 
-I updated a bunch
+I updated a bunch of 
 
 ## Description 
 ### Problem:
