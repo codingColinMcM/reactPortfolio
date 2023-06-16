@@ -1,6 +1,6 @@
 # Software-Development-Portfolio-React
 
-I updated a bunch of descriptions but soon I'll have
+I updated a bunch of descriptions but soon I'll have to
 
 ## Description 
 ### Problem:
