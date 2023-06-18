@@ -9,9 +9,6 @@ import {
   Nav,
   TabContent,
   TabPane,
-  Container,
-  Row,
-  Col,
 } from "reactstrap";
 const filmDexImg = require("./../../assets/images/Screenshot 2022-11-01 184004.png");
 const magPieGalleryImg = require("./../../assets/images/Screenshot 2023-02-27 010038.png")
