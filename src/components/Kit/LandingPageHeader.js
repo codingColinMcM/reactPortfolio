@@ -2,66 +2,31 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
+import HeaderBackground from "../HeaderBackground";
+
+const blackOutline = {
+  color: "#fff",
+  "text-shadow": "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
+}
 
 // core components
 
 function LandingPageHeader() {
-  let pageHeader = React.createRef();
-
-  React.useEffect(() => {
-    if (window.innerWidth > 991) {
-      const updateScroll = () => {
-        let windowScrollTop = window.pageYOffset / 3;
-        pageHeader.current.style.transform =
-          "translate3d(0," + windowScrollTop + "px,0)";
-      };
-      window.addEventListener("scroll", updateScroll);
-      return function cleanup() {
-        window.removeEventListener("scroll", updateScroll);
-      };
-    }
-  });
   return (
     <>
-      <div className="page-header page-header-small">
         <div
-          className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("../../assets/images/PXL_20220627_185955559.jpg") + ")"
-          }}
-          ref={pageHeader}
-        ></div>
-        <div className="content-center">
-          <Container>
-            <h1 className="title">This is our great company.</h1>
-            <div className="text-center">
-              <Button
-                className="btn-icon btn-round"
-                color="info"
-                href="#pablo"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-facebook-square"></i>
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="info"
-                href="#pablo"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-twitter"></i>
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="info"
-                href="#pablo"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-google-plus"></i>
-              </Button>
+        className="page-header clear-filter page-header-small"
+        >
+        <HeaderBackground/>
+        <Container>
+          <a href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU">
+            <div className="photo-container">
+              <img alt="..." className="rounded-circle img-raised" src={require("../../assets/img/Colin.jpg")}></img>
             </div>
-          </Container>
-        </div>
+          </a>
+          <h3 className="title">Colin McMurtray</h3>
+          <p className="category" style={blackOutline}>Full Stack Developer</p>
+        </Container>
       </div>
     </>
   );

@@ -3,43 +3,17 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-
-// core components
+import LinkedSites from "../LinkedSites";
 
 function DefaultFooter() {
   return (
     <>
       <footer className="footer footer-default">
         <Container>
-          <nav>
-            <ul>
-              <li>
-                <a
-                  href="https://www.creative-tim.com?ref=nukr-default-footer"
-                  target="_blank"
-                >
-                  Creative Tim
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://presentation.creative-tim.com?ref=nukr-default-footer"
-                  target="_blank"
-                >
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://blog.creative-tim.com?ref=nukr-default-footer"
-                  target="_blank"
-                >
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div><LinkedSites /></div>
           <div className="copyright" id="copyright">
+            <br></br>
+            <br></br>
             © {new Date().getFullYear()}, Designed by{" "}
             <a
               href="https://www.invisionapp.com?ref=nukr-default-footer"
@@ -54,7 +28,7 @@ function DefaultFooter() {
             >
               Creative Tim
             </a>
-            .
+            . Implemented by Colin McMurtray.
           </div>
         </Container>
       </footer>

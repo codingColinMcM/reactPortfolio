@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { Link } from "react-router-dom";
+import HeaderBackground from "../HeaderBackground";
+import { Container } from 'reactstrap';
 
 const serviceID = "service_zylwtkp"
 const templateID = "template_1dqmty6";
 const public_key = "6rjiuNxerGvh4hZ_f";
+const blackOutline = {
+  color: "#fff",
+  "text-shadow": "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
+};
 
 const Contact = () => {
 
@@ -70,16 +75,26 @@ const Contact = () => {
   
 
   return (
-      <div id="contact-form" className='Contact'>
-        <h1>Reach out to me</h1>
-        <h4>mcmurtraycolin@gmail.com</h4>
-        <button onClick={() => window.location.href = 'mailto:mcmurtraycolin@gmail.com'} style={inputSubmit}>To eMail me from your default eMail application</button>
-        <h2>Or you can reach out to me from here!</h2>
-        <h4>Just fill out your:</h4>
-        <input type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} style={inputText}/>
-        <input type="email" placeholder="eMail address" value={email} onChange={e => setEmail(e.target.value)} style={inputText}/>
-        <textarea placeholder="Message" value={message} onChange={e => setMessage(e.target.value)} style={inputText}></textarea>
-        <button onClick={submit} style={inputSubmit}>Send message</button>
+    <div>
+      <div className="page-header clear-filter page-header-small">
+        <HeaderBackground/>
+        <Container>
+        <h2 style={blackOutline}>Reach out to me!</h2>
+        <h4 style={blackOutline}>mcmurtraycolin@gmail.com</h4>
+        </Container>
+        
+      </div>
+      <Container>
+        <div id="contact-form" className='Contact'>
+          <button onClick={() => window.location.href = 'mailto:mcmurtraycolin@gmail.com'} style={inputSubmit}>Click here to eMail me from your default eMail application</button>
+          <h2>Or you can reach out to me by filling out the following form!</h2>
+          <h4>Just fill out your:</h4>
+          <input type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} style={inputText}/>
+          <input type="email" placeholder="eMail address" value={email} onChange={e => setEmail(e.target.value)} style={inputText}/>
+          <textarea placeholder="Message" value={message} onChange={e => setMessage(e.target.value)} style={inputText}></textarea>
+          <button onClick={submit} style={inputSubmit}>Click here to send your message!</button>
+        </div>
+      </Container>
       </div>
   );
 };

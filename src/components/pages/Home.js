@@ -17,6 +17,8 @@ import DefaultFooter from "../Kit/DefaultFooter.js";
 export default function Home() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
+  let pageHeader = React.createRef();
+
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -36,13 +38,10 @@ export default function Home() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Who we are?</h2>
+                <h2 className="title">Who am I?</h2>
                 <h5 className="description">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record low maximum sea ice extent tihs year down
-                  to low ice extent in the Pacific and a late drop in ice extent
-                  in the Barents Sea.
+                Hello, I'm Colin McMurtray, a passionate software developer with a Bachelor's Degree in Geography and a Computer Science Minor from the University of Mary Washington. My academic journey as a computer science minor at Mary Washington provided me with a well-rounded skill set that complements my practical knowledge gained through the UNC Chapel Hill Coding Bootcamp. I thrive on solving complex problems and have hands-on experience applying cutting-edge technologies to develop innovative solutions.
+
                 </h5>
               </Col>
             </Row>
@@ -54,262 +53,123 @@ export default function Home() {
                     className="image-container image-left"
                     style={{
                       backgroundImage:
-                        "url(" + require("../../assets/images/PXL_20220627_185955559.jpg") + ")"
+                        "url(" + require("../../assets/img/Mary_Washington.jpg") + ")"
                     }}
                   >
                     <p className="blockquote blockquote-info">
-                      "Over the span of the satellite record, Arctic sea ice has
-                      been declining significantly, while sea ice in the
-                      Antarctichas increased very slightly" <br></br>
+                      "A good programmer is someone who always looks both ways before crossing a one-way street." <br></br>
                       <br></br>
-                      <small>-NOAA</small>
+                      <small>Doug Linder</small>
                     </p>
                   </div>
                   <div
                     className="image-container"
                     style={{
                       backgroundImage:
-                        "url(" + require("../../assets/images/PXL_20220627_185955559.jpg") + ")"
+                        "url(" + require("../../assets/img/Problem_solving.jpeg") + ")"
                     }}
                   ></div>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br> <br></br> <br></br>
+                  <p>CPSC 240: Object-oriented Analysis and Design focused on object-oriented analysis and design principles. Through this course, I developed a structured approach to software development with an emphasis on code modularity and reusability.</p>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br> <br></br> <br></br>
+                  <div
+                    className="image-container"
+                    style={{
+                      backgroundImage:
+                        "url(" + require("../../assets/img/Binary_Tree.jpg") + ")"
+                    }}
+                  ></div>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br> <br></br>
+                  <p>CPSC 350: Applications of Databases introduced me to the practical applications of databases. It equipped me with the skills to design and implement efficient data storage solutions. I aquired hands-on experience with SQL, Redis, and MongoDB. Moreover, I successfully deployed a Flask application on Google Cloud utilizing Python, Django, HTML, and CSS to showcase my proficiency in these technologies.</p>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br>
+                  <div
+                    className="image-container"
+                    style={{
+                      backgroundImage:
+                        "url(" + require("../../assets/img/Info_Storage.webp") + ")"
+                    }}
+                  ></div>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br> <br></br> 
+                  <p>CPSC 414: Networking broadened my understanding of networking. This course covered topics such as protocols, security, and network architectures to enhance my ability to develop robust and secure networked applications.</p>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br> <br></br>
+                  <div
+                    className="image-container"
+                    style={{
+                      backgroundImage:
+                        "url(" + require("../../assets/img/fullstack_weekend.jpg") + ")"
+                    }}
+                  ></div>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                  <p>Beyond technical expertise, I bring a strong sense of leadership, discipline, and meticulous planning to every project I undertake. As an Eagle Scout, I value teamwork, meeting deadlines, and delivering high-quality results.</p>
                 </Col>
                 <Col md="5">
                   <div
                     className="image-container image-right"
                     style={{
                       backgroundImage:
-                        "url(" + require("../../assets/images/PXL_20220627_185955559.jpg") + ")"
+                        "url(" + require("../../assets/img/UNC.jpg") + ")"
                     }}
                   ></div>
-                  <h3>
-                    So what does the new record for the lowest level of winter
-                    ice actually mean
-                  </h3>
                   <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
+                  Throughout my coursework, I delved into various computer science subjects that have shaped my technical expertise. These courses equipped me with programming skills, problem-solving abilities, and a strong foundation in computer science concepts.
                   </p>
-                  <p>
-                    For a start, it does not automatically follow that a record
-                    amount of ice will melt this summer. More important for
-                    determining the size of the annual thaw is the state of the
-                    weather as the midnight sun approaches and temperatures
-                    rise. But over the more than 30 years of satellite records,
-                    scientists have observed a clear pattern of decline,
-                    decade-by-decade.
-                  </p>
-                  <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
-                  </p>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br> <br></br> <br></br><br></br><br></br>
+                  <p>In the course CPSC 220: Computer Programming and Problem Solving, I honed my programming skills and problem-solving abilities, allowing me to gain proficiency in languages such as Java and Python.</p>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br> <br></br><br></br><br></br>
+                  <div
+                    className="image-container"
+                    style={{
+                      backgroundImage:
+                        "url(" + require("../../assets/img/OOP.png") + ")"
+                    }}
+                  ></div>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br> <br></br>
+                  <p>CPSC 284: Applied Discreet Mathematics provided me with a solid understanding of the mathematical foundations of computer science, including algorithms, logic, and graph theory. This knowledge has proven invaluable when tackling complex programming challenges.</p>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br> <br></br>
+                  <div
+                    className="image-container"
+                    style={{
+                      backgroundImage:
+                        "url(" + require("../../assets/img/DB.jpg") + ")"
+                    }}
+                  ></div>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br><br></br>
+                  <p>CPSC 370A9: Information Storage and Retrieval, I gained insights into information storage and retrieval techniques, expanding my knowledge of organizing and retrieving data in large-scale systems. I developed a search engine utilizing term-ID doc-ID pairs, gaining proficiency in Regex, implementing the Naive Bayes theorem, and computed distance and similarity measures using vectors.</p>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br>
+                  <div
+                    className="image-container"
+                    style={{
+                      backgroundImage:
+                        "url(" + require("../../assets/img/Networking.jpg") + ")"
+                    }}
+                  ></div>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br>
+                  <p>During my time in the bootcamp, I had the opportunity to work on various projects that challenged my skills in React.js, which is the primary technology behind my portfolio. Through these projects, I gained practical experience in building responsive and interactive web applications, leveraging React.js components, state management, and routing.</p>
+                  <br></br> <br></br><br></br><br></br><br></br><br></br>
+                  <div
+                    className="image-container"
+                    style={{
+                      backgroundImage:
+                        "url(" + require("../../assets/img/Eagle_Scout.jpg") + ")"
+                    }}
+                  ></div>
                 </Col>
               </Row>
             </div>
-          </Container>
-        </div>
-        <div className="section section-team text-center">
-          <Container>
-            <h2 className="title">Here is our team</h2>
-            <div className="team">
-              <Row>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("../../assets/images/PXL_20220627_185955559.jpg")}
-                    ></img>
-                    <h4 className="title">Romina Hadid</h4>
-                    <p className="category text-info">Model</p>
-                    <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        links
-                      </a>{" "}
-                      for people to be able to follow them outside the site.
-                    </p>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-instagram"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-facebook-square"></i>
-                    </Button>
-                  </div>
-                </Col>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("../../assets/images/PXL_20220627_185955559.jpg")}
-                    ></img>
-                    <h4 className="title">Ryan Tompson</h4>
-                    <p className="category text-info">Designer</p>
-                    <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        links
-                      </a>{" "}
-                      for people to be able to follow them outside the site.
-                    </p>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-linkedin"></i>
-                    </Button>
-                  </div>
-                </Col>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("../../assets/images/PXL_20220627_185955559.jpg")}
-                    ></img>
-                    <h4 className="title">Eva Jenner</h4>
-                    <p className="category text-info">Fashion</p>
-                    <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        links
-                      </a>{" "}
-                      for people to be able to follow them outside the site.
-                    </p>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-google-plus"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-youtube"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </Container>
-        </div>
-        <div className="section section-contact-us text-center">
-          <Container>
-            <h2 className="title">Want to work with us?</h2>
-            <p className="description">Your project is very important to us.</p>
             <Row>
-              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
-                <InputGroup
-                  className={
-                    "input-lg" + (firstFocus ? " input-group-focus" : "")
-                  }
-                >
-                  
-                  <Input
-                    placeholder="First Name..."
-                    type="text"
-                    onFocus={() => setFirstFocus(true)}
-                    onBlur={() => setFirstFocus(false)}
-                  ></Input>
-                </InputGroup>
-                <InputGroup
-                  className={
-                    "input-lg" + (lastFocus ? " input-group-focus" : "")
-                  }
-                >
-                  
-                  <Input
-                    placeholder="Email..."
-                    type="text"
-                    onFocus={() => setLastFocus(true)}
-                    onBlur={() => setLastFocus(false)}
-                  ></Input>
-                </InputGroup>
-                <div className="textarea-container">
-                  <Input
-                    cols="80"
-                    name="name"
-                    placeholder="Type a message..."
-                    rows="4"
-                    type="textarea"
-                  ></Input>
-                </div>
-                <div className="send-button">
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    size="lg"
-                  >
-                    Send Message
-                  </Button>
-                </div>
+              <Col className="ml-auto mr-auto text-center" md="8">
+                
+                <h5 className="description">
+                Combining my academic knowledge as a computer science minor at Mary Washington with the hands-on experience I gained during the bootcamp, I am well-prepared to tackle real-world challenges and contribute to innovative software development projects.
+                </h5>
+                <br></br> <br></br>
+                <h5 className="description">
+                I am excited to leverage my comprehensive skill set, encompassing both theoretical concepts and practical applications, to excel in a software development role. Please explore my portfolio to see examples of my work, and don't hesitate to reach out for further discussions or potential collaboration opportunities.
+                </h5>
               </Col>
             </Row>
           </Container>
         </div>
-        <DefaultFooter />
       </div>
     </>
   );

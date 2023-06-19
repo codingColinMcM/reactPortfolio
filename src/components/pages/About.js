@@ -1,6 +1,8 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
+import HeaderBackground from '../HeaderBackground';
 import {
+  Container,
   Card,
   CardHeader,
   CardBody,
@@ -28,6 +30,10 @@ const cardStyle = {
   width: "600px", // Set the desired width percentage
   height: "1075px",
 };
+const blackOutline = {
+  color: "#fff",
+  "text-shadow": "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
+};
 
 export default function About() {
   const [pills, setPills] = React.useState(null);
@@ -38,10 +44,20 @@ export default function About() {
   const [pillsW, setPillsW] = React.useState(null);
   return (
     <div>
-      <h1>Portfolio</h1>
+      
+      <div className="page-header clear-filter page-header-small">
+        <HeaderBackground/>
+        <Container>
+        <h1 style={blackOutline}>My Portfolio!</h1>
+        <h3 style={blackOutline}>Here you will see the projects I complete related to my software development career</h3>
+        <h4 style={blackOutline}>Click the project image to be taken to the deployed website or demo video of the project</h4>
+        <h4 style={blackOutline}>Click the associated GitHub icons to be taken to each project's respective GitHub repository</h4>
+
+        </Container>
+        
+      </div>
       <table>
-                <tr><th colspan="4" id = "aboutMe"><p>My Portfolio! Here you will see the projects I complete related to my software development career.</p>
-                <p>Click the associated GitHub icons to be taken to each project's respective GitHub repository</p>
+                <tr><th colspan="4" id = "aboutMe">
                 </th></tr>
                 <tr>
                   <td>

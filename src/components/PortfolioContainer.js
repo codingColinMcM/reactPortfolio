@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-import LinkedSites from './LinkedSites';
+import DefaultFooter from './Kit/DefaultFooter';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -32,7 +32,7 @@ export default function PortfolioContainer() {
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       <br></br>
-      <LinkedSites></LinkedSites>
+      <DefaultFooter></DefaultFooter>
     </div>
   );
 }

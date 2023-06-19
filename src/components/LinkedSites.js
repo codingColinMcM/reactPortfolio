@@ -3,15 +3,6 @@ import { SocialIcon } from 'react-social-icons';
 
 function LinkedSites() {
 
-  const styleList = {
-    margin: "0",
-    padding: "0",
-    overflow: "hidden",
-    bottom: "0",
-    marginLeft: "auto",
-    marginRight: "auto",
-    width: "22%"
-  }  
   const styleSocials = {
     listStyleType:"none",
     float: "left",
@@ -21,7 +12,7 @@ function LinkedSites() {
     textDecoration: "none"
   } 
   return (
-    <ul className="link linked-sites" style={styleList}>
+    <ul className="link linked-sites">
       
       <li className="linked-site" style={styleSocials}>
         <SocialIcon url="https://github.com/codingColinMcM" network='github'/>
