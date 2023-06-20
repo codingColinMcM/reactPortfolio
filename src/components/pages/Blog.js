@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderBackground from '../HeaderBackground';
 import { Container, Row, Col } from 'reactstrap';
 
-const downloadResume = require("./../../assets/docs/Tech_CV.docx");
+const downloadResume = require("./../../assets/docs/Tech-No-Lines.docx");
 
 const blackOutline = {
   color: "#fff",
