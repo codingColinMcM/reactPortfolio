@@ -1,7 +1,7 @@
 {
   "main.css": "/reactPortfolio/static/css/main.593befa7.chunk.css",
-  "main.js": "/reactPortfolio/static/js/main.f27f0913.chunk.js",
-  "main.js.map": "/reactPortfolio/static/js/main.f27f0913.chunk.js.map",
+  "main.js": "/reactPortfolio/static/js/main.2f6e15d2.chunk.js",
+  "main.js.map": "/reactPortfolio/static/js/main.2f6e15d2.chunk.js.map",
   "static/js/1.e673e935.chunk.js": "/reactPortfolio/static/js/1.e673e935.chunk.js",
   "static/js/1.e673e935.chunk.js.map": "/reactPortfolio/static/js/1.e673e935.chunk.js.map",
   "runtime~main.js": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js",
@@ -24,10 +24,10 @@
   "static/media/216521080-b8715e4d-ff57-4dc3-bf47-58db92542cfd.png": "/reactPortfolio/static/media/216521080-b8715e4d-ff57-4dc3-bf47-58db92542cfd.10739097.png",
   "static/media/Screenshot 2023-02-20 134924.png": "/reactPortfolio/static/media/Screenshot 2023-02-20 134924.6073c711.png",
   "static/media/198859584-5e880983-e237-40c7-a936-3ef0d05e6b39.png": "/reactPortfolio/static/media/198859584-5e880983-e237-40c7-a936-3ef0d05e6b39.957f485f.png",
-  "static/media/Tech_CV.docx": "/reactPortfolio/static/media/Tech_CV.7ff68224.docx",
-  "static/media/now-ui-kit.css": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf",
+  "static/media/Tech-No-Lines.docx": "/reactPortfolio/static/media/Tech-No-Lines.92ecf2cf.docx",
+  "static/media/now-ui-kit.css": "/reactPortfolio/static/media/nucleo-outline.8ebec31f.woff2",
   "static/css/main.593befa7.chunk.css.map": "/reactPortfolio/static/css/main.593befa7.chunk.css.map",
   "index.html": "/reactPortfolio/index.html",
-  "precache-manifest.beb189cbc71d04d422fe1cafcf2d4d42.js": "/reactPortfolio/precache-manifest.beb189cbc71d04d422fe1cafcf2d4d42.js",
+  "precache-manifest.938450086dcca44ca698aa84205c8352.js": "/reactPortfolio/precache-manifest.938450086dcca44ca698aa84205c8352.js",
   "service-worker.js": "/reactPortfolio/service-worker.js"
 }
