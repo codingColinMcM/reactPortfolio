@@ -1,9 +1,9 @@
 {
-  "main.css": "/reactPortfolio/static/css/main.593befa7.chunk.css",
-  "main.js": "/reactPortfolio/static/js/main.2f6e15d2.chunk.js",
-  "main.js.map": "/reactPortfolio/static/js/main.2f6e15d2.chunk.js.map",
-  "static/js/1.e673e935.chunk.js": "/reactPortfolio/static/js/1.e673e935.chunk.js",
-  "static/js/1.e673e935.chunk.js.map": "/reactPortfolio/static/js/1.e673e935.chunk.js.map",
+  "main.css": "/reactPortfolio/static/css/main.3b9a0c18.chunk.css",
+  "main.js": "/reactPortfolio/static/js/main.5fb509c8.chunk.js",
+  "main.js.map": "/reactPortfolio/static/js/main.5fb509c8.chunk.js.map",
+  "static/js/1.c5f613ff.chunk.js": "/reactPortfolio/static/js/1.c5f613ff.chunk.js",
+  "static/js/1.c5f613ff.chunk.js.map": "/reactPortfolio/static/js/1.c5f613ff.chunk.js.map",
   "runtime~main.js": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js",
   "runtime~main.js.map": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js.map",
   "static/media/norway.jpg": "/reactPortfolio/static/media/norway.84c70ecc.jpg",
@@ -25,9 +25,9 @@
   "static/media/Screenshot 2023-02-20 134924.png": "/reactPortfolio/static/media/Screenshot 2023-02-20 134924.6073c711.png",
   "static/media/198859584-5e880983-e237-40c7-a936-3ef0d05e6b39.png": "/reactPortfolio/static/media/198859584-5e880983-e237-40c7-a936-3ef0d05e6b39.957f485f.png",
   "static/media/Tech-No-Lines.docx": "/reactPortfolio/static/media/Tech-No-Lines.92ecf2cf.docx",
-  "static/media/now-ui-kit.css": "/reactPortfolio/static/media/nucleo-outline.8ebec31f.woff2",
-  "static/css/main.593befa7.chunk.css.map": "/reactPortfolio/static/css/main.593befa7.chunk.css.map",
+  "static/media/now-ui-kit.css": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf",
+  "static/css/main.3b9a0c18.chunk.css.map": "/reactPortfolio/static/css/main.3b9a0c18.chunk.css.map",
   "index.html": "/reactPortfolio/index.html",
-  "precache-manifest.938450086dcca44ca698aa84205c8352.js": "/reactPortfolio/precache-manifest.938450086dcca44ca698aa84205c8352.js",
+  "precache-manifest.81aad9a76c34c103379dcd92b54a03ac.js": "/reactPortfolio/precache-manifest.81aad9a76c34c103379dcd92b54a03ac.js",
   "service-worker.js": "/reactPortfolio/service-worker.js"
 }
