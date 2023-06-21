@@ -29,6 +29,7 @@ function LinkedSites() {
       <li className="linked-site" style={styleSocials}>
           <SocialIcon url="https://stackoverflow.com/users/21230554/colin-mcmurtray" network='stackoverflow'/>
       </li>
+
     </ul>
   );
 }
