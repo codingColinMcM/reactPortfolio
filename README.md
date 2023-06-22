@@ -74,7 +74,8 @@ Then run:
   
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/112663656/221924444-b2a890f0-652e-4967-bf23-9874287776b9.png)
+![image](https://github.com/codingColinMcM/reactPortfolio/assets/112663656/05e54912-aa53-4650-b06f-c1b1db8ced03)
+
 
 ## Deployed URL
 
