@@ -140,6 +140,7 @@ export default function About() {
                   JavaScript<br></br>
                   HTML<br></br>
                   CSS<br></br> 
+                  Git<br></br>
                   GitHub<br></br>
                   Third Party APIs.
                   </p>
@@ -237,8 +238,8 @@ export default function About() {
                 <TabPane tabId="pills5">
                   <p>
                   "Magpie Gallery" is a group project that empowers artists to showcase their creations while providing art enthusiasts with a captivating space to explore contemporary artwork.
-                  With this application, our team craeted a platform where artists can easily upload their work, gaining a platform to share their talent and creativity with a wider audience. Art enthusiasts, on the other hand, have the opportunity to immerse themselves in the world of contemporary art, accessing a diverse range of captivating artwork.
-                  Through this platform, artists and art enthusiasts come together, fostering a vibrant community that celebrates artistic expression and encourages the discovery of new and exciting artwork. Does adding more to this description solve my problem?
+                  With this application, our team created a platform where artists can easily upload their work, gaining a platform to share their talent and creativity with a wider audience. Art enthusiasts, on the other hand, have the opportunity to immerse themselves in the world of contemporary art, accessing a diverse range of captivating artwork.
+                  Through this platform, artists and art enthusiasts come together, fostering a vibrant community that celebrates artistic expression and encourages the discovery of new and exciting artwork.
                   <br></br><br></br>
                   </p>
                 </TabPane>
@@ -259,13 +260,12 @@ export default function About() {
                   Node.js<br></br>
                   Handlebars<br></br>
                   Heroku<br></br>
+                  Git<br></br>
                   GitHub<br></br>
                   body-parser<br></br>
                   cookie-parser<br></br>
-                  morgan<br></br>
-                  hbs<br></br>
+                  Multer<br></br>
                   bcrypt<br></br>
-                  dcrypt<br></br>
                   dotenv<br></br>
                   express-session<br></br>
                   express-handlebars
