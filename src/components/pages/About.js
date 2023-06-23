@@ -126,12 +126,12 @@ export default function About() {
                   
                 The "FilmDex" is a collaborative effort resulting in a web application that utilizes multiple third-party APIs to provide comprehensive Movie & TV Show information, including reviews and streaming access from over 150+ services.
 
-                With this project, our team aimed to develop an application that seamlessly merges the time-consuming process of searching for your next Movie/TV Show into a unified and intuitive user experience. Instead of individually searching for reviews, streaming availability, and recommendations, the "FilmDex" simplifies and expedites this process, offering a convenient solution for users.
+                With this project, our team aimed to develop an application that seamlessly merges the time-consuming process of searching for your next Movie/TV Show into a unified and intuitive user experience. Instead of individually searching for reviews, descriptions, and recommendations, the "FilmDex" simplifies and expedites this process, offering a convenient solution for users.
                   </p>
                 </TabPane>
                 <TabPane tabId="pills2">
                   <p>
-                  Problem: Users face the inconvenience of navigating multiple platforms to access comprehensive information on movies and TV shows, including reviews, streaming availability, and recommendations. <br></br><br></br>
+                  Problem: Users face the inconvenience of navigating multiple platforms to access comprehensive information on movies and TV shows, including reviews, descriptions, and recommendations. <br></br><br></br>
                   Solution: Filmdex is a web application that offers a centralized platform, integrating multiple third-party APIs, to streamline the process of finding and accessing comprehensive information on movies and TV shows, eliminating the need to navigate between various platforms.
                   </p>
                 </TabPane>
