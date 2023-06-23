@@ -1,7 +1,7 @@
 {
   "main.css": "/reactPortfolio/static/css/main.3b9a0c18.chunk.css",
-  "main.js": "/reactPortfolio/static/js/main.0d798bbd.chunk.js",
-  "main.js.map": "/reactPortfolio/static/js/main.0d798bbd.chunk.js.map",
+  "main.js": "/reactPortfolio/static/js/main.3765e623.chunk.js",
+  "main.js.map": "/reactPortfolio/static/js/main.3765e623.chunk.js.map",
   "static/js/1.c5f613ff.chunk.js": "/reactPortfolio/static/js/1.c5f613ff.chunk.js",
   "static/js/1.c5f613ff.chunk.js.map": "/reactPortfolio/static/js/1.c5f613ff.chunk.js.map",
   "runtime~main.js": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js",
@@ -28,6 +28,6 @@
   "static/media/now-ui-kit.css": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf",
   "static/css/main.3b9a0c18.chunk.css.map": "/reactPortfolio/static/css/main.3b9a0c18.chunk.css.map",
   "index.html": "/reactPortfolio/index.html",
-  "precache-manifest.5dea02e2deb35d43488bb85af9b78864.js": "/reactPortfolio/precache-manifest.5dea02e2deb35d43488bb85af9b78864.js",
+  "precache-manifest.dc71d2e539163f81d490189cf2206856.js": "/reactPortfolio/precache-manifest.dc71d2e539163f81d490189cf2206856.js",
   "service-worker.js": "/reactPortfolio/service-worker.js"
 }
