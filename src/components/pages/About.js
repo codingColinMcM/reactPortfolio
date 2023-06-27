@@ -124,7 +124,7 @@ export default function About() {
                 <TabPane tabId="pills1">
                   <p>
                   
-                The "FilmDex" is a collaborative effort resulting in a web application that utilizes multiple third-party APIs to provide comprehensive Movie information, including reviews and streaming access from over 150+ services.
+                The "FilmDex" is a collaborative effort resulting in a web application that utilizes multiple third-party APIs to provide comprehensive Movie information, including reviews and recommendations access from over 150+ services.
 
                 With this project, our team aimed to develop an application that seamlessly merges the time-consuming process of searching for your next Movie into a unified and intuitive user experience. Instead of individually searching for reviews, descriptions, and recommendations, the "FilmDex" simplifies and expedites this process, offering a convenient solution for users.
                   </p>
@@ -157,7 +157,7 @@ export default function About() {
                     Search functionality<br></br>
                     Data filtering and sorting<br></br>
                     Recommendations algorithms<br></br>
-                    Streamlining access to reviews and streaming availability
+                    Streamlining access to reviews
                   </p>
                 </TabPane>
               </TabContent>
@@ -731,7 +731,7 @@ export default function About() {
                 </TabPane>
               </TabContent>
               <div className = "sixthApp">
-                <a href="https://codingcolinmcm.github.io/weatherDashboard/">
+                <a href="https://codingcolinmcm.github.io/Weather-Dashboard-Third-Party-APIs/">
                   <img src={weatherAppImg} style={thisSize}></img>
                 </a>
               </div>
