@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a672d19cf6f0828e2906",
+    "revision": "9e2c828790126fd56f99",
     "url": "/reactPortfolio/static/css/main.3326fdbb.chunk.css"
   },
   {
-    "revision": "a672d19cf6f0828e2906",
-    "url": "/reactPortfolio/static/js/main.a672d19c.chunk.js"
+    "revision": "9e2c828790126fd56f99",
+    "url": "/reactPortfolio/static/js/main.9e2c8287.chunk.js"
   },
   {
     "revision": "0b71b60bdfc9f65d18f4",
@@ -196,27 +196,27 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/GTLB-logo.26d1261e.png"
   },
   {
-    "revision": "92ecf2cf5c68308254c63c05d4702ff9",
-    "url": "/reactPortfolio/static/media/Tech-No-Lines.92ecf2cf.docx"
-  },
-  {
-    "revision": "22a0bffe789c286a9d78eb52670996a7",
-    "url": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf"
-  },
-  {
-    "revision": "24e2d6b43b1b0f84fdfaa06a4032f154",
-    "url": "/reactPortfolio/static/media/nucleo-outline.24e2d6b4.woff"
-  },
-  {
-    "revision": "53a1bed7a3ec86d010fe100873828a89",
-    "url": "/reactPortfolio/static/media/nucleo-outline.53a1bed7.eot"
+    "revision": "da27ec6dea39615914ff67b6c05be8ed",
+    "url": "/reactPortfolio/static/media/Tech-Final.da27ec6d.docx"
   },
   {
     "revision": "8ebec31f5ce59f908db84d86aed5947f",
     "url": "/reactPortfolio/static/media/nucleo-outline.8ebec31f.woff2"
   },
   {
-    "revision": "8092823febabfa687caf843bd1163c31",
+    "revision": "53a1bed7a3ec86d010fe100873828a89",
+    "url": "/reactPortfolio/static/media/nucleo-outline.53a1bed7.eot"
+  },
+  {
+    "revision": "24e2d6b43b1b0f84fdfaa06a4032f154",
+    "url": "/reactPortfolio/static/media/nucleo-outline.24e2d6b4.woff"
+  },
+  {
+    "revision": "22a0bffe789c286a9d78eb52670996a7",
+    "url": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf"
+  },
+  {
+    "revision": "843e21d023c55e9ed324755796fc0676",
     "url": "/reactPortfolio/index.html"
   }
 ];
