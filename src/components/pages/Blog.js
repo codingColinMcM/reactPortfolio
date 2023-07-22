@@ -97,7 +97,7 @@ export default function Blog() {
               <div className='container-resume'>
                 <img src={pythonLogo} className='image-resume'></img>
                 <div className="middle-resume">
-                  <div className="text-resume">Pyhton</div>
+                  <div className="text-resume">Python</div>
                 </div>
               </div>
             </Col>
