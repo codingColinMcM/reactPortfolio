@@ -520,7 +520,7 @@ export default function About() {
             </CardBody>
           </Card>
         </div>
-        <div className="card-column">
+        {/* <div className="card-column">
           <Card style={cardStyle}>
             <h3 style={thisPosition}>Note Taker<SocialIcon url="https://github.com/codingColinMcM/Note-Taker-Express" network='github' bgColor="#918c8a"/><span class="github-caption">&larr; Click to view GitHub Repo</span></h3>
             <CardHeader>
@@ -630,7 +630,7 @@ export default function About() {
               <p style={thisPosition}>&uarr; Click to view deployed application</p>
             </CardBody>
           </Card>
-        </div>
+        </div> */}
         <div className="card-column">
           <Card style={cardStyle}>
             <h3 style={thisPosition}>Weather Dashboard<SocialIcon url="https://github.com/codingColinMcM/weatherDashboard" network='github' bgColor="#918c8a"/><span class="github-caption">&larr; Click to view GitHub Repo</span></h3>

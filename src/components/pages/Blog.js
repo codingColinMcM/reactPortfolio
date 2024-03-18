@@ -44,7 +44,7 @@ const thisSize = {
   heeigh: "100px"
 }
 
-const downloadResume = require("./../../assets/docs/Tech-Final.docx");
+const downloadResume = require("./../../assets/docs/Tech-Final.pdf");
 
 const blackOutline = {
   color: "#fff",

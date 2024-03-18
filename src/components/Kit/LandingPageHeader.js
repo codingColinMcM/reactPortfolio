@@ -21,7 +21,7 @@ function LandingPageHeader() {
         <Container>
           <a href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU">
             <div className="photo-container">
-              <img alt="..." className="rounded-circle img-raised" src={require("../../assets/img/Colin.jpg")}></img>
+              <img width="400" alt="..." className="rounded-circle img-raised" src={require("../../assets/img/Colin.jpg")}></img>
             </div>
           </a>
           <h3 className="title">Colin McMurtray</h3>
