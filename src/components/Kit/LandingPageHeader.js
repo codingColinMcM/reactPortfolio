@@ -19,11 +19,9 @@ function LandingPageHeader() {
         >
         <HeaderBackground/>
         <Container>
-          <a href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU">
-            <div className="photo-container">
-              <img width="400" alt="..." className="rounded-circle img-raised" src={require("../../assets/img/Colin.jpg")}></img>
-            </div>
-          </a>
+          <div className="photo-container">
+            <img width="400" alt="..." className="rounded-circle img-raised" src={require("../../assets/img/Colin.jpg")}></img>
+          </div>
           <h3 className="title">Colin McMurtray</h3>
           <p className="category" style={blackOutline}>Full Stack Developer</p>
         </Container>

@@ -50,9 +50,9 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li></li>
       <li></li>
       <li></li>
-      <ul className="contact-list">
+      <ul className="contact-list" style={{ display: 'inline' }}>
         <li>
-          (443)970-5620
+          (443) 970-5620
         </li>
         <li>
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZcRqWCMSLCXBxPtplqWzbCznZLqmLCJJQCqBDfHdWLXDjMXjdrXpTmNrMRsfCwvPSmbhg">mcmurtraycolin@gmail.com</a>
