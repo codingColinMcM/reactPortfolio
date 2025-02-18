@@ -3461,9 +3461,20 @@ p {
   font-size: 1.2em;
 }
 
+.shadow-background {
+  background: rgb(8 8 8 / 68%);
+  border-radius: 30px;
+  padding: 0px 3px 0px 3px;
+  box-shadow: 0 0 17px rgba(128, 128, 128, 0.7);
+  text-align: center;
+  width: fit-content;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  margin: auto;
+}
 .title {
   font-weight: 700;
-  padding-top: 30px;
+  margin-bottom: 30px;
+  margin-top: 7px;
 }
 .title.title-up {
   text-transform: uppercase;
