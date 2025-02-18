@@ -86,13 +86,13 @@ const Contact = () => {
       </div>
       <Container>
         <div id="contact-form" className='Contact'>
-          <button onClick={() => window.location.href = 'mailto:mcmurtraycolin@gmail.com'} style={inputSubmit}>Click here to eMail me from your default eMail application</button>
+          <button onClick={() => window.location.href = 'mailto:mcmurtraycolin@gmail.com'} style={inputSubmit}>Click here to e-mail me from your default e-mail application</button>
           <h2>Or you can reach out to me by filling out the following form!</h2>
           <h4>Just fill out your:</h4>
           <input type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} style={inputText}/>
-          <input type="email" placeholder="eMail address" value={email} onChange={e => setEmail(e.target.value)} style={inputText}/>
+          <input type="email" placeholder="e-mail address" value={email} onChange={e => setEmail(e.target.value)} style={inputText}/>
           <textarea placeholder="Message" value={message} onChange={e => setMessage(e.target.value)} style={inputText}></textarea>
-          <button onClick={submit} style={inputSubmit}>Click here to send your message!</button>
+          <button onClick={submit} style={inputSubmit}>Click here. We will be in touch!</button>
         </div>
       </Container>
       </div>

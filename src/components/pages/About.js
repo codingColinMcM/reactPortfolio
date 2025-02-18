@@ -58,7 +58,7 @@ export default function About() {
       <div className="card-wrapper">
         <div className="card-column">
           <Card style={cardStyle}>
-            <h3 style={thisPosition}>FilmDex <SocialIcon url="https://github.com/mdlahey1/Project1-Front-End-App-Group6" network='github' bgColor="#918c8a"/><span class="github-caption">&larr; Click to view GitHub Repo</span></h3>
+	  <h3 style={thisPosition}>FilmDex <SocialIcon url="https://github.com/mdlahey1/Project1-Front-End-App-Group6" network='github' bgColor="#918c8a"/><span class="github-caption"></span></h3>
             <CardHeader>
               <Nav
                 className="nav-tabs-neutral justify-content-center"
@@ -166,13 +166,13 @@ export default function About() {
                   <img src={filmDexImg} style={thisSize}></img>
                 </a>
               </div>
-              <p style={thisPosition}>&uarr; Click to view deployed application</p>
+       	    <p style={thisPosition}/>
             </CardBody>
           </Card>
         </div>
         <div className="card-column">
           <Card style={cardStyle}>
-            <h3 style={thisPosition}>Magpie Gallery <SocialIcon url="https://github.com/marysgreenwood/Spaghetti-on-the-Wall-Project" network='github' bgColor="#918c8a"/><span class="github-caption"> Click to view GitHub Repo</span></h3>
+            <h3 style={thisPosition}>Magpie Gallery <SocialIcon url="https://github.com/marysgreenwood/Spaghetti-on-the-Wall-Project" network='github' bgColor="#918c8a"/><span class="github-caption"></span></h3>
             <CardHeader>
               <Nav
                 className="nav-tabs-neutral justify-content-center"
@@ -291,13 +291,13 @@ export default function About() {
                   <img src={magPieGalleryImg} style={thisSize}></img>
                 </a>
               </div>
-              <p style={thisPosition}>&uarr; Click to view deployed application</p>
+              <p style={thisPosition}></p>
             </CardBody>
           </Card>
         </div>
         <div className="card-column">
           <Card style={cardStyle}>
-            <h3 style={thisPosition}>Company Database <SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/><span class="github-caption">&larr; Click to view GitHub Repo</span></h3>
+            <h3 style={thisPosition}>Company Database <SocialIcon url="https://github.com/codingColinMcM/company_database" network='github' bgColor="#918c8a"/><span class="github-caption"></span></h3>
             <CardHeader>
               <Nav
                 className="nav-tabs-neutral justify-content-center"
@@ -403,13 +403,13 @@ export default function About() {
                   <img src={companyDBImg} style={thisSize}></img>
                 </a>
               </div>
-              <p style={thisPosition}>&uarr; Click to view demo video</p>
+              <p style={thisPosition}></p>
             </CardBody>
           </Card>
         </div>
         <div className="card-column">
           <Card style={cardStyle}>
-            <h3 style={thisPosition}>E-Commerce <SocialIcon url="https://github.com/codingColinMcM/eCommerce" network='github' bgColor="#918c8a"/><span class="github-caption">&larr; Click to view GitHub Repo</span></h3>
+            <h3 style={thisPosition}>E-Commerce <SocialIcon url="https://github.com/codingColinMcM/eCommerce" network='github' bgColor="#918c8a"/><span class="github-caption"></span></h3>
             <CardHeader>
               <Nav
                 className="nav-tabs-neutral justify-content-center"
@@ -516,13 +516,13 @@ export default function About() {
                   <img src={eCommerceDBImg} style={thisSize}></img>
                 </a>
               </div>
-              <p style={thisPosition}>&uarr; Click to view demo video</p>
+              <p style={thisPosition}></p>
             </CardBody>
           </Card>
         </div>
         {/* <div className="card-column">
           <Card style={cardStyle}>
-            <h3 style={thisPosition}>Note Taker<SocialIcon url="https://github.com/codingColinMcM/Note-Taker-Express" network='github' bgColor="#918c8a"/><span class="github-caption">&larr; Click to view GitHub Repo</span></h3>
+            <h3 style={thisPosition}>Note Taker<SocialIcon url="https://github.com/codingColinMcM/Note-Taker-Express" network='github' bgColor="#918c8a"/><span class="github-caption"></span></h3>
             <CardHeader>
               <Nav
                 className="nav-tabs-neutral justify-content-center"
@@ -627,13 +627,13 @@ export default function About() {
                   <img src={noteTakerImg} style={thisSize}></img>
                 </a>
               </div>
-              <p style={thisPosition}>&uarr; Click to view deployed application</p>
+              <p style={thisPosition}></p>
             </CardBody>
           </Card>
         </div> */}
         <div className="card-column">
           <Card style={cardStyle}>
-            <h3 style={thisPosition}>Weather Dashboard<SocialIcon url="https://github.com/codingColinMcM/weatherDashboard" network='github' bgColor="#918c8a"/><span class="github-caption">&larr; Click to view GitHub Repo</span></h3>
+            <h3 style={thisPosition}>Weather Dashboard<SocialIcon url="https://github.com/codingColinMcM/weatherDashboard" network='github' bgColor="#918c8a"/><span class="github-caption"></span></h3>
             <CardHeader>
               <Nav
                 className="nav-tabs-neutral justify-content-center"
@@ -735,7 +735,7 @@ export default function About() {
                   <img src={weatherAppImg} style={thisSize}></img>
                 </a>
               </div>
-              <p style={thisPosition}>&uarr; Click to view deployed application</p>
+              <p style={thisPosition}></p>
             </CardBody>
           </Card>
         </div>

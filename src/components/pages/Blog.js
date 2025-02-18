@@ -64,7 +64,7 @@ export default function Blog() {
         
       </div>
       <br></br><br></br>
-      <h2 style={{textAlign: "center"}}>Here is a hyerlink to download my <a href={downloadResume} download="resume">resume</a></h2>
+      <h2 style={{textAlign: "center"}}><a href={downloadResume} download="resume">Download my resume</a></h2>
       <br></br>
       <Container>
         <h4 style={{textAlign: "center"}}>Languages</h4>
