@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "4a5e503044d41c3a3926",
-    "url": "/reactPortfolio/static/css/main.9925b6db.chunk.css"
+    "revision": "75abfbc02048ce6d72c4",
+    "url": "/reactPortfolio/static/css/main.079cdc6a.chunk.css"
   },
   {
-    "revision": "4a5e503044d41c3a3926",
-    "url": "/reactPortfolio/static/js/main.4a5e5030.chunk.js"
+    "revision": "75abfbc02048ce6d72c4",
+    "url": "/reactPortfolio/static/js/main.75abfbc0.chunk.js"
   },
   {
-    "revision": "0b71b60bdfc9f65d18f4",
-    "url": "/reactPortfolio/static/js/1.0b71b60b.chunk.js"
+    "revision": "456dc0099379b8de5938",
+    "url": "/reactPortfolio/static/js/1.456dc009.chunk.js"
   },
   {
     "revision": "b0bfce8dd94b52aef958",
@@ -136,8 +136,8 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/React-iconpng.22808bae.png"
   },
   {
-    "revision": "b00e5302fe4a220239c42549f694bdab",
-    "url": "/reactPortfolio/static/media/bootstrap-logo-vector.b00e5302.svg"
+    "revision": "69157f84b773fcce1b0af57149cd64f2",
+    "url": "/reactPortfolio/static/media/bootstrap-logo-vector.69157f84.svg"
   },
   {
     "revision": "191dc5e93bbdb90d5ce0371b2a05295b",
@@ -200,23 +200,23 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/Tech-Final.fe122662.pdf"
   },
   {
-    "revision": "53a1bed7a3ec86d010fe100873828a89",
-    "url": "/reactPortfolio/static/media/nucleo-outline.53a1bed7.eot"
-  },
-  {
     "revision": "8ebec31f5ce59f908db84d86aed5947f",
     "url": "/reactPortfolio/static/media/nucleo-outline.8ebec31f.woff2"
   },
   {
-    "revision": "24e2d6b43b1b0f84fdfaa06a4032f154",
-    "url": "/reactPortfolio/static/media/nucleo-outline.24e2d6b4.woff"
+    "revision": "53a1bed7a3ec86d010fe100873828a89",
+    "url": "/reactPortfolio/static/media/nucleo-outline.53a1bed7.eot"
   },
   {
     "revision": "22a0bffe789c286a9d78eb52670996a7",
     "url": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf"
   },
   {
-    "revision": "227fa83cd80d65d4ab2ddb03d04cdb3c",
+    "revision": "24e2d6b43b1b0f84fdfaa06a4032f154",
+    "url": "/reactPortfolio/static/media/nucleo-outline.24e2d6b4.woff"
+  },
+  {
+    "revision": "ca73d051402151d42fc8da2cffaa01b1",
     "url": "/reactPortfolio/index.html"
   }
 ];
