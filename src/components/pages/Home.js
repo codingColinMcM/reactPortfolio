@@ -36,7 +36,7 @@ export default function Home() {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who am I?</h2>
                 <h5 className="description">
-                Hello, I'm Colin McMurtray, a passionate software developer with a Bachelor's Degree in Geography and a Computer Science Minor from the University of Mary Washington. My academic journey as a computer science minor at Mary Washington provided me with a well-rounded skill set that complements my practical knowledge gained through the UNC Chapel Hill Coding Bootcamp. I thrive on solving complex problems and have hands-on experience applying cutting-edge technologies to develop innovative solutions.
+                Hello, I'm Colin Edward McMurtray, a passionate software developer with a Bachelor's Degree in Geography and a Computer Science Minor from the University of Mary Washington. My academic journey as a computer science minor at Mary Washington provided me with a well-rounded skill set that complements my practical knowledge gained through the UNC Chapel Hill Coding Bootcamp. I thrive on solving complex problems and have hands-on experience applying cutting-edge technologies to develop innovative solutions.
 
                 </h5>
               </Col>
