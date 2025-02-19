@@ -208,12 +208,12 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/nucleo-outline.53a1bed7.eot"
   },
   {
-    "revision": "22a0bffe789c286a9d78eb52670996a7",
-    "url": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf"
-  },
-  {
     "revision": "24e2d6b43b1b0f84fdfaa06a4032f154",
     "url": "/reactPortfolio/static/media/nucleo-outline.24e2d6b4.woff"
+  },
+  {
+    "revision": "22a0bffe789c286a9d78eb52670996a7",
+    "url": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf"
   },
   {
     "revision": "a8456ae7b5e82758836968f17c59445e",
