@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "0477eedf2456e166efe4",
-    "url": "/reactPortfolio/static/css/main.b8255cc4.chunk.css"
+    "revision": "03730f1f2bd0924014ee",
+    "url": "/reactPortfolio/static/css/main.150fc5b4.chunk.css"
   },
   {
-    "revision": "0477eedf2456e166efe4",
-    "url": "/reactPortfolio/static/js/main.0477eedf.chunk.js"
+    "revision": "03730f1f2bd0924014ee",
+    "url": "/reactPortfolio/static/js/main.03730f1f.chunk.js"
   },
   {
-    "revision": "7988883d5837a987a56d",
-    "url": "/reactPortfolio/static/js/1.7988883d.chunk.js"
+    "revision": "2d318f889e754ea7ae8c",
+    "url": "/reactPortfolio/static/js/1.2d318f88.chunk.js"
   },
   {
     "revision": "b0bfce8dd94b52aef958",
@@ -28,8 +28,48 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/Mary_Washington.ee9c3028.jpg"
   },
   {
+    "revision": "de0763ea7cec9aebb5756a72532b71a8",
+    "url": "/reactPortfolio/static/media/FDM_Office.de0763ea.png"
+  },
+  {
     "revision": "2221eae527d6235f2f5f436c74ad7fc8",
     "url": "/reactPortfolio/static/media/UNC.2221eae5.jpg"
+  },
+  {
+    "revision": "b76aaa861e69fc632741fd0e70ddd627",
+    "url": "/reactPortfolio/static/media/revature_front_desk.b76aaa86.jpg"
+  },
+  {
+    "revision": "6745d1f61aeb29c55402c10bdd1fe238",
+    "url": "/reactPortfolio/static/media/Problem_solving.6745d1f6.jpeg"
+  },
+  {
+    "revision": "456906d19254f819c05a2dec8f7f4812",
+    "url": "/reactPortfolio/static/media/Binary_Tree.456906d1.jpg"
+  },
+  {
+    "revision": "31e5c14c253627e55b58848d31347a4c",
+    "url": "/reactPortfolio/static/media/Info_Storage.31e5c14c.webp"
+  },
+  {
+    "revision": "5bb9e35911857bd83b174e4276152c98",
+    "url": "/reactPortfolio/static/media/fullstack_weekend.5bb9e359.jpg"
+  },
+  {
+    "revision": "c5ec93223c47a7d86658f8bf1f189197",
+    "url": "/reactPortfolio/static/media/OOP.c5ec9322.png"
+  },
+  {
+    "revision": "b562854442cbb8d18b8398fe99d27e35",
+    "url": "/reactPortfolio/static/media/DB.b5628544.jpg"
+  },
+  {
+    "revision": "5d2822d71085ca868722e351abf9fe38",
+    "url": "/reactPortfolio/static/media/Networking.5d2822d7.jpg"
+  },
+  {
+    "revision": "011279ac42d102a7e57a25cc03b67f56",
+    "url": "/reactPortfolio/static/media/Eagle_Scout.011279ac.jpg"
   },
   {
     "revision": "629b41db50edf37a78b49d888fcd4eb5",
@@ -184,7 +224,7 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/nucleo-outline.8ebec31f.woff2"
   },
   {
-    "revision": "0b1d1da4cecab376db5cb89d90824e33",
+    "revision": "e7a9e5592ce66f775081f0c4d71863db",
     "url": "/reactPortfolio/index.html"
   }
 ];
