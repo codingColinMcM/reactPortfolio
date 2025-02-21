@@ -3460,16 +3460,24 @@ p {
   font-weight: 300;
   font-size: 1.2em;
 }
-
 .shadow-background {
   background: rgb(8 8 8 / 68%);
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 0px 3px 0px 3px;
   box-shadow: 0 0 17px rgba(128, 128, 128, 0.7);
   text-align: center;
   width: fit-content;
   border: 1px solid rgba(128, 128, 128, 0.3);
   margin: auto;
+}
+.pointed-edges {
+  border-radius: 23px 7px;
+}
+.no-bullets {
+  list-style-type: none;
+}
+.opace-hover:hover {
+  opacity: 70
 }
 .title {
   font-weight: 700;
@@ -3490,7 +3498,7 @@ p {
 .description,
 .card-description,
 .footer-big p {
-  color: #9a9a9a;
+  color: #2d2b2b;
   font-weight: 300;
 }
 
