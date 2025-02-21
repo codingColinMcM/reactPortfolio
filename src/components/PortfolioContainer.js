@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
+import DeepDive from './pages/DeepDive'
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
@@ -13,6 +14,9 @@ export default function PortfolioContainer() {
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
+    }
+    if (currentPage === 'DeepDive') {
+      return <DeepDive />;
     }
     if (currentPage === 'About') {
       return <About />;

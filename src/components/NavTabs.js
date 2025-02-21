@@ -15,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          About Me
+	  Home
         </a>
       </li>
       <li className="nav-item">
@@ -46,6 +46,16 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#deepDive"
+          onClick={() => handlePageChange('DeepDive')}
+          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'DeepDive' ? 'nav-link active' : 'nav-link'}
+        >
+          About Me
         </a>
       </li>
       <li></li>

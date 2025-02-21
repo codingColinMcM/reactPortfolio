@@ -36,7 +36,11 @@ export default function Home() {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Hi, I'm Colin 👋</h2>
                 <h5 className="description">
-	  	I'm a passionate software developer who thrives on building innovative solutions to complex problems. With a unique background combining Geography and Computer Science from the University of Mary Washington, I bring a fresh perspective to software development.
+	  I'm a software developer and technical leader who builds innovative solutions to complex challenges. As Tech Lead at FDM Group's Infinity Digital Banking Pod, I architected full-stack solutions and guided cross-functional teams. 
+	  <br></br><br></br>
+	  My rapid progression from automotive systems engineering at Revature to leading banking applications demonstrates my ability to quickly master new technologies and domains.
+	  <br></br><br></br>
+	  Combining geographical information systems from the University of Mary Washington with full-stack certification from UNC Chapel Hill, I bring both technical adaptability and fresh perspectives to software development.
 	  <br></br><br></br>
 	  	Core Skills:
 	  	<ul className="no-bullets">
@@ -56,10 +60,22 @@ export default function Home() {
                   <div
                     className="image-container image-left"
                     style={{
+		      zIndex: 10,
                       backgroundImage:
                         "url(" + require("../../assets/img/Mary_Washington.jpg") + ")"
                     }}
                   >
+	  	  </div>
+		  <div
+	  	    className="image-container"
+                    style={{
+		      zIndex: 20,
+		      marginTop: -30,
+                      backgroundImage:
+                        "url(" + require("../../assets/img/FDM_Office.png") + ")"
+                    }}
+                  >
+
                     <p className="blockquote blockquote-info">
                       "A good programmer is someone who always looks both ways before crossing a one-way street." <br></br>
                       <br></br>
@@ -71,10 +87,22 @@ export default function Home() {
                   <div
                     className="image-container image-right"
                     style={{
+		      zIndex: 30,
                       backgroundImage:
                         "url(" + require("../../assets/img/UNC.jpg") + ")"
                     }}
                   ></div>
+		  <div
+                    className="image-container image-right"
+                    style={{
+                      zIndex: 0,
+		      marginTop: -145,
+		      left: 30,
+                      backgroundImage:
+                        "url(" + require("../../assets/img/revature_front_desk.jpg") + ")"
+                    }}
+                  ></div>
+
 		</Col>
 	      </Row>
 	    </div>
