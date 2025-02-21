@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "386854b0681dc25b01f6",
-    "url": "/reactPortfolio/static/css/main.04000b92.chunk.css"
+    "revision": "0477eedf2456e166efe4",
+    "url": "/reactPortfolio/static/css/main.b8255cc4.chunk.css"
   },
   {
-    "revision": "386854b0681dc25b01f6",
-    "url": "/reactPortfolio/static/js/main.386854b0.chunk.js"
+    "revision": "0477eedf2456e166efe4",
+    "url": "/reactPortfolio/static/js/main.0477eedf.chunk.js"
   },
   {
-    "revision": "b4f2e6b67b2100d0d3c1",
-    "url": "/reactPortfolio/static/js/1.b4f2e6b6.chunk.js"
+    "revision": "7988883d5837a987a56d",
+    "url": "/reactPortfolio/static/js/1.7988883d.chunk.js"
   },
   {
     "revision": "b0bfce8dd94b52aef958",
@@ -28,40 +28,8 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/Mary_Washington.ee9c3028.jpg"
   },
   {
-    "revision": "6745d1f61aeb29c55402c10bdd1fe238",
-    "url": "/reactPortfolio/static/media/Problem_solving.6745d1f6.jpeg"
-  },
-  {
-    "revision": "456906d19254f819c05a2dec8f7f4812",
-    "url": "/reactPortfolio/static/media/Binary_Tree.456906d1.jpg"
-  },
-  {
-    "revision": "31e5c14c253627e55b58848d31347a4c",
-    "url": "/reactPortfolio/static/media/Info_Storage.31e5c14c.webp"
-  },
-  {
-    "revision": "5bb9e35911857bd83b174e4276152c98",
-    "url": "/reactPortfolio/static/media/fullstack_weekend.5bb9e359.jpg"
-  },
-  {
     "revision": "2221eae527d6235f2f5f436c74ad7fc8",
     "url": "/reactPortfolio/static/media/UNC.2221eae5.jpg"
-  },
-  {
-    "revision": "c5ec93223c47a7d86658f8bf1f189197",
-    "url": "/reactPortfolio/static/media/OOP.c5ec9322.png"
-  },
-  {
-    "revision": "b562854442cbb8d18b8398fe99d27e35",
-    "url": "/reactPortfolio/static/media/DB.b5628544.jpg"
-  },
-  {
-    "revision": "5d2822d71085ca868722e351abf9fe38",
-    "url": "/reactPortfolio/static/media/Networking.5d2822d7.jpg"
-  },
-  {
-    "revision": "011279ac42d102a7e57a25cc03b67f56",
-    "url": "/reactPortfolio/static/media/Eagle_Scout.011279ac.jpg"
   },
   {
     "revision": "629b41db50edf37a78b49d888fcd4eb5",
@@ -200,8 +168,8 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/Tech-Final.fe122662.pdf"
   },
   {
-    "revision": "8ebec31f5ce59f908db84d86aed5947f",
-    "url": "/reactPortfolio/static/media/nucleo-outline.8ebec31f.woff2"
+    "revision": "53a1bed7a3ec86d010fe100873828a89",
+    "url": "/reactPortfolio/static/media/nucleo-outline.53a1bed7.eot"
   },
   {
     "revision": "24e2d6b43b1b0f84fdfaa06a4032f154",
@@ -212,11 +180,11 @@ self.__precacheManifest = [
     "url": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf"
   },
   {
-    "revision": "53a1bed7a3ec86d010fe100873828a89",
-    "url": "/reactPortfolio/static/media/nucleo-outline.53a1bed7.eot"
+    "revision": "8ebec31f5ce59f908db84d86aed5947f",
+    "url": "/reactPortfolio/static/media/nucleo-outline.8ebec31f.woff2"
   },
   {
-    "revision": "7540e6735ae65b032ba4574dae9f9f52",
+    "revision": "0b1d1da4cecab376db5cb89d90824e33",
     "url": "/reactPortfolio/index.html"
   }
 ];
