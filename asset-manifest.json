@@ -1,9 +1,9 @@
 {
-  "main.css": "/reactPortfolio/static/css/main.6e304f99.chunk.css",
-  "main.js": "/reactPortfolio/static/js/main.d9f25f3b.chunk.js",
-  "main.js.map": "/reactPortfolio/static/js/main.d9f25f3b.chunk.js.map",
-  "static/js/1.456dc009.chunk.js": "/reactPortfolio/static/js/1.456dc009.chunk.js",
-  "static/js/1.456dc009.chunk.js.map": "/reactPortfolio/static/js/1.456dc009.chunk.js.map",
+  "main.css": "/reactPortfolio/static/css/main.04000b92.chunk.css",
+  "main.js": "/reactPortfolio/static/js/main.386854b0.chunk.js",
+  "main.js.map": "/reactPortfolio/static/js/main.386854b0.chunk.js.map",
+  "static/js/1.b4f2e6b6.chunk.js": "/reactPortfolio/static/js/1.b4f2e6b6.chunk.js",
+  "static/js/1.b4f2e6b6.chunk.js.map": "/reactPortfolio/static/js/1.b4f2e6b6.chunk.js.map",
   "runtime~main.js": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js",
   "runtime~main.js.map": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js.map",
   "static/media/norway.jpg": "/reactPortfolio/static/media/norway.84c70ecc.jpg",
@@ -52,9 +52,9 @@
   "static/media/jest-logo.png": "/reactPortfolio/static/media/jest-logo.cfa3a326.png",
   "static/media/GTLB-logo.png": "/reactPortfolio/static/media/GTLB-logo.26d1261e.png",
   "static/media/Tech-Final.pdf": "/reactPortfolio/static/media/Tech-Final.fe122662.pdf",
-  "static/media/now-ui-kit.css": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf",
-  "static/css/main.6e304f99.chunk.css.map": "/reactPortfolio/static/css/main.6e304f99.chunk.css.map",
+  "static/media/now-ui-kit.css": "/reactPortfolio/static/media/nucleo-outline.53a1bed7.eot",
+  "static/css/main.04000b92.chunk.css.map": "/reactPortfolio/static/css/main.04000b92.chunk.css.map",
   "index.html": "/reactPortfolio/index.html",
-  "precache-manifest.2ce6c25928c306f07506a4b441e3fbb6.js": "/reactPortfolio/precache-manifest.2ce6c25928c306f07506a4b441e3fbb6.js",
+  "precache-manifest.e78ed8c07cb645a542a6ca5f95acbec7.js": "/reactPortfolio/precache-manifest.e78ed8c07cb645a542a6ca5f95acbec7.js",
   "service-worker.js": "/reactPortfolio/service-worker.js"
 }
