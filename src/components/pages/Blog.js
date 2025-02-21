@@ -46,19 +46,14 @@ const thisSize = {
 
 const downloadResume = require("./../../assets/docs/Tech-Final.pdf");
 
-const blackOutline = {
-  color: "#fff",
-  "text-shadow": "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
-};
-
 export default function Blog() {
   return (
     <div>
       <div className="page-header clear-filter page-header-small">
         <HeaderBackground/>
         <Container>
-        <h1 style={blackOutline}>My Resume!</h1>
-        <h3 style={blackOutline}>Here you will see the skills I have aquired through my educational career</h3>
+        <h1 className="shadow-background">My Resume!</h1>
+        <h3 className="shadow-background">Here you will see the skills I have aquired through my educational career</h3>
 
         </Container>
         

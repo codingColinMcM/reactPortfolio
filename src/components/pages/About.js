@@ -30,10 +30,6 @@ const cardStyle = {
   width: "600px", // Set the desired width percentage
   height: "1075px",
 };
-const blackOutline = {
-  color: "#fff",
-  "text-shadow": "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
-};
 
 export default function About() {
   const [pills, setPills] = React.useState(null);
@@ -47,18 +43,30 @@ export default function About() {
       <div className="page-header clear-filter page-header-small">
         <HeaderBackground/>
         <Container>
-        <h1 style={blackOutline}>My Portfolio!</h1>
-        <h3 style={blackOutline}>Here you will see the projects I complete related to my software development career</h3>
-        <h4 style={blackOutline}>Click the project image to be taken to the deployed website or demo video of the project</h4>
-        <h4 style={blackOutline}>Click the associated GitHub icons to be taken to each project's respective GitHub repository</h4>
-
+        <h1 className="shadow-background">My Portfolio!</h1>
+	<div className="shadow-background pointed-edges">
+        	<h3>Here you will see the projects I complete related to my software development career</h3>
+        	<h4>Click the project image to be taken to the deployed website or demo video of the project</h4>
+        	<h4>Click the associated GitHub icons to be taken to each project's respective GitHub repository</h4>
+	</div>
         </Container>
         
       </div>
       <div className="card-wrapper">
         <div className="card-column">
           <Card style={cardStyle}>
-	  <h3 style={thisPosition}>FilmDex <SocialIcon url="https://github.com/mdlahey1/Project1-Front-End-App-Group6" network='github' bgColor="#918c8a"/><span class="github-caption"></span></h3>
+	    <h3 style={thisPosition}>
+	          FilmDex
+	 	  <SocialIcon
+	  style={{ opacity: 1, transition: 'opacity 0.3s' }}
+    onMouseEnter={(e) => e.target.style.opacity = 0.7}
+    onMouseLeave={(e) => e.target.style.opacity = 1}
+		      url="https://github.com/mdlahey1/Project1-Front-End-App-Group6"
+		      network='github'
+		      bgColor="#918c8a"
+		   />
+		  <span className="github-caption"></span>
+	    </h3>
             <CardHeader>
               <Nav
                 className="nav-tabs-neutral justify-content-center"

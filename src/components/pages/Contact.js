@@ -6,10 +6,6 @@ import { Container } from 'reactstrap';
 const serviceID = "service_zylwtkp"
 const templateID = "template_1dqmty6";
 const public_key = "6rjiuNxerGvh4hZ_f";
-const blackOutline = {
-  color: "#fff",
-  "text-shadow": "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
-};
 
 const Contact = () => {
 
@@ -79,8 +75,8 @@ const Contact = () => {
       <div className="page-header clear-filter page-header-small">
         <HeaderBackground/>
         <Container>
-        <h2 style={blackOutline}>Reach out to me!</h2>
-        <h4 style={blackOutline}>mcmurtraycolin@gmail.com</h4>
+        <h2 className="shadow-background">Reach out to me!</h2>
+        <h4 className="shadow-background">mcmurtraycolin@gmail.com</h4>
         </Container>
         
       </div>
