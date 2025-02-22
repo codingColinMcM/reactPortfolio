@@ -8200,14 +8200,17 @@ td.rdtYear:hover {
     grid-template-columns: repeat(2, auto) ;
     justify-content: center;
   }
+  .nav-tabs {
+    max-width: 350px;
+  }
 }
 @media (max-width: 1098px) and (min-width: 821px) {
   .nav-container {
     position: relative; /* Make the container a positioning context */
     width: 100%;
   }
-
   .nav-tabs {
+    max-width: fit-content;
     position: absolute;
     top: 0;
     right: -80px;
