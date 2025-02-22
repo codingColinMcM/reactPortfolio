@@ -10,10 +10,8 @@ function DefaultFooter() {
     <>
       <footer className="footer footer-default">
         <Container>
-          <div><LinkedSites /></div>
-          <div className="copyright" id="copyright">
-            <br></br>
-            <br></br>
+          <div style={{float: "left"}}><LinkedSites /></div>
+          <div className="copyright" id="copyright"> 
             © {new Date().getFullYear()}, Designed by{" "}
             <a
               href="https://www.invisionapp.com?ref=nukr-default-footer"

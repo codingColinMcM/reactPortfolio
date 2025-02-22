@@ -23,6 +23,7 @@ function HeaderBackground() {
             <div
                 className="page-header-image"
                 style={{
+		top: -77,
                 backgroundImage: "url(" + require("../assets/img/norway.jpg") + ")"
                 }}
                 ref={pageHeader}
