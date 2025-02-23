@@ -69,8 +69,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         </div>
         <div className="stack-contents">
           <ul className="contact-list" style={{ listStyleType: "none" }}>
-            <li className="phone-number">(443) 970-5620</li>
-            <li>
+	    <li>
+       	      <a href="tel:410-660-6350">(443) 970-5620</a>
+            </li>
+	    <li>
               <a href="mailto:mcmurtraycolin@gmail.com" style={{ color: "#f96332" }}>mcmurtraycolin@gmail.com</a>
             </li>
           </ul>
