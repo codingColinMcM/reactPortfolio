@@ -8255,6 +8255,6 @@ td.rdtYear:hover {
 
 @media screen and (max-width: 428px) {
   .contact-list {
-    right: 10px; 
+    right: -110px; 
   }
 }
