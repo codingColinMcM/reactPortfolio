@@ -8248,6 +8248,14 @@ td.rdtYear:hover {
   .contact-list {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 10px; /* Adjust this value as needed */
+    text-align: right; /* Ensure text aligns to the right */
+  }
+}
+
+/* Additional media query for smaller screens */
+@media screen and (max-width: 428px) {
+  .contact-list {
+    right: 70px; /* Further adjust for very small screens */
   }
 }
