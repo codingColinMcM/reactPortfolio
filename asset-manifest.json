@@ -1,7 +1,7 @@
 {
-  "main.css": "/reactPortfolio/static/css/main.75127ebb.chunk.css",
-  "main.js": "/reactPortfolio/static/js/main.e29ffbba.chunk.js",
-  "main.js.map": "/reactPortfolio/static/js/main.e29ffbba.chunk.js.map",
+  "main.css": "/reactPortfolio/static/css/main.4798d27c.chunk.css",
+  "main.js": "/reactPortfolio/static/js/main.ba17cc6f.chunk.js",
+  "main.js.map": "/reactPortfolio/static/js/main.ba17cc6f.chunk.js.map",
   "static/js/1.2d318f88.chunk.js": "/reactPortfolio/static/js/1.2d318f88.chunk.js",
   "static/js/1.2d318f88.chunk.js.map": "/reactPortfolio/static/js/1.2d318f88.chunk.js.map",
   "runtime~main.js": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js",
@@ -54,9 +54,9 @@
   "static/media/jest-logo.png": "/reactPortfolio/static/media/jest-logo.cfa3a326.png",
   "static/media/GTLB-logo.png": "/reactPortfolio/static/media/GTLB-logo.26d1261e.png",
   "static/media/Tech-Final.pdf": "/reactPortfolio/static/media/Tech-Final.fe122662.pdf",
-  "static/media/now-ui-kit.css": "/reactPortfolio/static/media/nucleo-outline.24e2d6b4.woff",
-  "static/css/main.75127ebb.chunk.css.map": "/reactPortfolio/static/css/main.75127ebb.chunk.css.map",
+  "static/media/now-ui-kit.css": "/reactPortfolio/static/media/nucleo-outline.22a0bffe.ttf",
+  "static/css/main.4798d27c.chunk.css.map": "/reactPortfolio/static/css/main.4798d27c.chunk.css.map",
   "index.html": "/reactPortfolio/index.html",
-  "precache-manifest.a8d240b40ebd5ab322140a0b8f371039.js": "/reactPortfolio/precache-manifest.a8d240b40ebd5ab322140a0b8f371039.js",
+  "precache-manifest.eede56c5bfb1c3e764da1d9da9dc513c.js": "/reactPortfolio/precache-manifest.eede56c5bfb1c3e764da1d9da9dc513c.js",
   "service-worker.js": "/reactPortfolio/service-worker.js"
 }
