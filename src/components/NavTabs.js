@@ -18,7 +18,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <div className="stack-contents">
           <LinkedSites />
           <div className="nav nav-tabs">
-	    <div className="nav-contents">
+            <div className="nav-contents">
               <div className="nav-item">
                 <a
                   href="#about"
@@ -64,7 +64,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   About Me
                 </a>
               </div>
-	    </div>
+            </div>
           </div>
         </div>
         <div className="stack-contents">
