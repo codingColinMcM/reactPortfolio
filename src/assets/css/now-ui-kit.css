@@ -8248,10 +8248,6 @@ td.rdtYear:hover {
   .contact-list {
     position: absolute;
     bottom: 0;
-    left: 46%;
-    transform: translateX(-50%);
-  }
-  .phone-number {
-    margin-left: 48px;
+    right: 0;
   }
 }
