@@ -8189,6 +8189,7 @@ td.rdtYear:hover {
 }
 .contact-list {
   margin-right: 42px;
+  text-align: right;
 }
 .phone-number {
   color: white;
@@ -8223,7 +8224,7 @@ td.rdtYear:hover {
 
   .contact-list {
     position: absolute;
-  bottom: 0; /* Align to the bottom */
+    bottom: 0; /* Align to the bottom */
     right: 0;
   }
 }
