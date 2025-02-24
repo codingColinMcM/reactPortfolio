@@ -3499,7 +3499,7 @@ p {
 .card-description,
 .footer-big p {
   color: #2d2b2b;
-  font-weight: 300;
+  font-weight: 420;
 }
 
 .category {
@@ -3540,6 +3540,7 @@ p {
   line-height: 1.8;
 }
 .blockquote small {
+  font-weight: 420;
   color: #888888;
   font-size: 0.8571em;
   text-transform: uppercase;
@@ -7867,6 +7868,7 @@ td.rdtYear:hover {
 }
 
 .blockquote.blockquote-info {
+  font-weight: 420;
   border-color: #2ca8ff;
   color: #2ca8ff;
 }
