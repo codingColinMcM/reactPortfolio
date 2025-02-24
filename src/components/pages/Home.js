@@ -58,24 +58,19 @@ export default function Home() {
               <Row>
                 <Col md="6">
                   <div
-                    className="image-container image-left"
+                    className="mary-wash-home image-container image-left"
                     style={{
-		      zIndex: 10,
                       backgroundImage:
                         "url(" + require("../../assets/img/Mary_Washington.jpg") + ")"
                     }}
                   >
 	  	  </div>
-		  <div
-	  	    className="image-container"
-                    style={{
-		      zIndex: 20,
-		      marginTop: -30,
-                      backgroundImage:
-                        "url(" + require("../../assets/img/FDM_Office.png") + ")"
-                    }}
-                  >
-
+	          <div
+			className="fdm-home image-container"
+		        style={{
+			    backgroundImage: "url(" + require("../../assets/img/FDM_Office.png") + ")",
+			  }}
+		    >
                     <p className="blockquote blockquote-info">
                       "A good programmer is someone who always looks both ways before crossing a one-way street." <br></br>
                       <br></br>
@@ -85,19 +80,15 @@ export default function Home() {
 	  	</Col>
 	  	<Col md="5">
                   <div
-                    className="image-container image-right"
+                    className="unc-home image-container image-right"
                     style={{
-		      zIndex: 30,
                       backgroundImage:
                         "url(" + require("../../assets/img/UNC.jpg") + ")"
                     }}
                   ></div>
 		  <div
-                    className="image-container image-right"
+                    className="revature-home image-container image-right"
                     style={{
-                      zIndex: 0,
-		      marginTop: -145,
-		      left: 30,
                       backgroundImage:
                         "url(" + require("../../assets/img/revature_front_desk.jpg") + ")"
                     }}

@@ -5874,18 +5874,8 @@ img {
 .section-story-overview .image-container + .category {
   padding-top: 15px;
 }
-.section-story-overview .image-container.image-right {
-  z-index: 2;
-}
-.section-story-overview .image-container.image-right + h3.title {
-  margin-top: 120px;
-}
 .section-story-overview .image-container.image-left {
   z-index: 1;
-}
-.section-story-overview .image-container:nth-child(2) {
-  margin-top: 420px;
-  margin-left: -105px;
 }
 .section-story-overview p.blockquote {
   width: 220px;
@@ -8195,6 +8185,23 @@ td.rdtYear:hover {
   color: white;
   margin-left: 97px; 
 }
+.revature-home {
+  z-index: 0;
+  margin-top: -142px;
+  right: -42px;
+}
+.mary-wash-home {
+  z-index: 1;
+}
+.fdm-home {
+  z-index: 2;
+  top: -8px;
+  margin-left: -250px;
+  right: -142px;
+}
+.unc-home {
+  z-index: 3;
+}
 @media (max-width: 1247px) and (min-width: 821px) {
   .linked-sites {
     display: grid ;
@@ -8253,7 +8260,28 @@ td.rdtYear:hover {
     text-align: right; 
   }
 }
-
+@media screen and (max-width: 769px) {
+  .mary-wash-home {
+    top: -30px;
+  }
+  .fdm-home {
+    margin-right: -115px;
+    margin-left: -115px !important;
+    top: -210px;
+    left: 0px;
+  }
+  .unc-home {
+    top: 69px;
+  }
+  .revature-home {
+    left: 0px;
+    margin-top: 0px;
+    top: 100px;
+    width: 111%;
+    left: -30px;
+    margin-bottom: -69px !important;
+  }
+}
 @media screen and (max-width: 428px) {
   .contact-list {
     right: -40px; 
