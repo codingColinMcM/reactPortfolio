@@ -43,13 +43,11 @@ export default function Home() {
 	  Combining geographical information systems from the University of Mary Washington with full-stack certification from UNC Chapel Hill, I bring both technical adaptability and fresh perspectives to software development.
 	  <br></br><br></br>
 	  	Core Skills:
-	  	<ul className="no-bullets">
-			<li> Full Stack Development (MERN Stack, Spring Framework) </li>
-			<li> Database Management (SQL, MongoDB, Redis)</li>
-			<li> Object-Oriented Programming (Java, Python, Node.js)</li>
-			<li> Network Architecture & Security</li>
-			<li> System Design & Architecture</li>
-		</ul>
+			<br /> Full Stack Development (MERN Stack, Spring Framework)
+			<br /> Database Management (SQL, MongoDB, Redis)
+			<br /> Object-Oriented Programming (Java, Python, Node.js)
+			<br /> Network Architecture & Security
+			<br /> System Design & Architecture
                 </h5>
               </Col>
             </Row>
@@ -93,7 +91,6 @@ export default function Home() {
                         "url(" + require("../../assets/img/revature_front_desk.jpg") + ")"
                     }}
                   ></div>
-
 		</Col>
 	      </Row>
 	    </div>

@@ -8288,4 +8288,22 @@ td.rdtYear:hover {
   .contact-list {
     right: -40px; 
   }
+  .fdm-home {
+    background-position: right;
+    width: 100%;
+    height: 38% !important;
+    left: 115px;
+  }
+  .blockquote {
+    top: 277px !important;
+  }
+  .unc-home {
+    top: 300px !important;
+  }
+  .revature-home {
+    width: 100%;
+    height: 225px !important;
+    left: 0px;
+    margin-top: 240px;
+  }
 }
